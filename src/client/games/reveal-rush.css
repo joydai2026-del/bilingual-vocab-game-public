@@ -1,0 +1,187 @@
+/* Reveal Rush. The look is kit.css; this file is the board, the glyph and the
+   flat twin's tiles.
+
+   The glyph and the tiles share ONE box (.rr-board), whose left/top/width and
+   height are written by whichever renderer is running: the 3D scene projects
+   its tile grid onto the screen and copies the rectangle here, the flat twin
+   computes a square. Everything below is therefore in the board's own
+   coordinates, which is also what `clipPathFor` writes its pixels in. */
+
+.rr-stage {
+  height: min(58vh, 520px);
+  min-height: 260px;
+  margin: 10px 0 14px;
+}
+
+/* Nothing on the canvas is clickable, and the probe needs the glyph to be the
+   thing under the cursor wherever the clip lets it paint. */
+.rr-stage > canvas {
+  pointer-events: none;
+}
+
+.rr-board {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+}
+
+.rr-glyph {
+  position: absolute;
+  inset: 0;
+  /* A grid of one cell per character, sized by the shell. Never wrapped text:
+     the line box of a wrapped character is a full em tall wherever the box
+     ends, which put half a two-character word outside the tiles. */
+  display: grid;
+  place-items: stretch;
+  line-height: 1;
+  font-family: 'Kaiti SC', 'Kaiti TC', STKaiti, KaiTi, 'Songti SC', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', serif;
+  font-weight: 700;
+  color: var(--kit-ink);
+  /* No text-stroke: the outline would survive the clip as a hairline around
+     each revealed slice and give the shape away. */
+  user-select: none;
+
+  /* The probe asks the browser where this paints, so it has to be hit-testable.
+     It has no listeners; nothing here reacts to a tap. */
+  pointer-events: auto;
+}
+
+.rr-ch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  overflow: hidden;
+}
+
+/* --- the flat twin's tiles ------------------------------------------------ */
+
+.rr-tiles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.rr-tile {
+  position: absolute;
+  box-sizing: border-box;
+  border: 3px solid var(--kit-ink);
+  border-radius: 14px;
+  box-shadow: inset 0 -6px 0 rgba(43, 45, 66, 0.14), 0 4px 0 rgba(43, 45, 66, 0.2);
+  transform-origin: center;
+  animation: rr-bob 2.6s ease-in-out infinite;
+}
+
+@keyframes rr-bob {
+  0%,
+  100% {
+    translate: 0 -2px;
+  }
+  50% {
+    translate: 0 2px;
+  }
+}
+
+/* Squash first, then fly. Same shape of motion as the 3D pop, so the two modes
+   read as the same game. */
+.rr-tile.popping {
+  animation: none;
+  transition: transform 520ms cubic-bezier(0.34, 1.3, 0.64, 1), opacity 520ms ease-out;
+  opacity: 0;
+}
+
+.rr-spark {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  pointer-events: none;
+  transition: transform 780ms cubic-bezier(0.22, 0.9, 0.3, 1), opacity 780ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rr-tile {
+    animation: none;
+  }
+}
+
+/* --- the word, once it has been read -------------------------------------- */
+
+/* A pill, not bare text. The solved character fills the board and its lowest
+   strokes reach the bottom of it, so an unbacked caption sat on top of them. */
+.rr-solved {
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  transform: translateX(-50%);
+  max-width: 92%;
+  padding: 6px 18px;
+  border-radius: 999px;
+  border: 3px solid var(--kit-ink);
+  background: var(--kit-cloud);
+  box-shadow: 0 4px 0 var(--kit-ink);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 260ms ease-out;
+  font-family: 'Baloo 2', 'Nunito', 'PingFang SC', system-ui, sans-serif;
+}
+
+/* Empty until a word is read: an empty pill would be a white bar over the
+   board for the whole round. */
+.rr-solved:empty {
+  display: none;
+}
+
+.rr-solved.on {
+  opacity: 1;
+}
+
+.rr-solved-py {
+  font-size: clamp(16px, 3vw, 26px);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--kit-ink);
+}
+
+.rr-solved-en {
+  font-size: clamp(18px, 3.4vw, 30px);
+  font-weight: 900;
+  color: var(--kit-ink);
+}
+
+/* --- the side panel ------------------------------------------------------- */
+
+.rr-panel {
+  min-height: 200px;
+}
+
+.rr-goal {
+  margin: 0 0 8px;
+  text-align: center;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.rr-goal-hot {
+  opacity: 1;
+  color: #b3541e;
+}
+
+.rr-read .big {
+  font-family: 'Kaiti SC', STKaiti, 'PingFang SC', 'Hiragino Sans GB', serif;
+}
+
+.rr-listen {
+  justify-content: center;
+  min-height: 64px;
+  align-items: center;
+}
+
+.rr-big-speaker {
+  font-size: 40px;
+  line-height: 1;
+}
+

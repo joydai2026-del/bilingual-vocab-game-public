@@ -1,0 +1,10 @@
+{
+  "why": "Tone numbers instead of tone marks, run together, from a keyboard that cannot type marks.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师"
+  ],
+  "mustNot": []
+}
+

@@ -1,0 +1,14 @@
+{
+  "why": "The paperwork a teacher leaves around her list. None of it is a word, and none of it is a meaning.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [
+    "Homework: page 12",
+    "Unit 3 Vocabulary"
+  ]
+}
+

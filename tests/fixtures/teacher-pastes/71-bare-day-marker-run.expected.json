@@ -1,0 +1,8 @@
+{
+  "why": "第一天 is ordinary day vocabulary, not a contents page, so a bare run of them is three cards and not the deliberate empty answer fixture 68 stands for",
+  "note": "Round 9, F2. isMarkerRunOnly asked whether every token was a bare 第N marker and never asked what the UNIT was, so `第1天 第2天` and `第一天 第二天` came back with no cards AND paperworkOnly (measured by Codex against the real public/cedict.json on 44d2a41). paperworkOnly is not just an empty answer, it also tells the worker the empty was deliberate and refuses the rescue, so this paste was unrecoverable. Fixture 64 and fixture 69 are these same words with an English gloss beside them and they make five cards each; the gloss she happened to type was the only thing separating a card from an empty screen. The unit split is now named: ORDINAL_VOCAB_UNITS (天 周 名 次 年 月 个) are things a class counts, DOC_STRUCTURE_UNITS (课 单元 章 册 讲 节 页 部分) are parts of a document. The gloss style is `day N`: one English noun per unit plus the number, which reads the same for 第10天 as for 第1天 and needs no English ordinal table. Pinyin comes from the same static DIGIT_PINYIN table the months use, so both numeral spellings of one handout give one answer.",
+  "must": ["第一天", "第二天", "第三天"],
+  "mustNot": ["第", "天", "第一", "第二"],
+  "maxItems": 3
+}
+

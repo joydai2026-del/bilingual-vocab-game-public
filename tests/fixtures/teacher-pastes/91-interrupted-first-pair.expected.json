@@ -1,0 +1,28 @@
+{
+  "why": "Round 3 review, must-fix 3: the set's title split across two lines, so 词语解释 sits between 科技创新 and its own sentence. The heading used to take the sentence and the word was dropped as the title. The heading comes out first, which puts the pair back together.",
+  "must": [
+    "科技创新",
+    "人工智能",
+    "语音识别",
+    "图像识别",
+    "数据分析",
+    "深度学习",
+    "解决问题",
+    "适应能力",
+    "模拟",
+    "程序",
+    "产品研发",
+    "研发"
+  ],
+  "mustNot": [
+    "科技",
+    "创新",
+    "电脑",
+    "东西",
+    "用新的科学和技术创造新的东西"
+  ],
+  "mode": "structured",
+  "minItems": 51,
+  "maxItems": 51
+}
+

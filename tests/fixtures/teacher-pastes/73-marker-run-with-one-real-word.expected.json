@@ -1,0 +1,16 @@
+{
+  "why": "two lesson numbers and one real word: the word is the whole answer, and one word is a finished read rather than a failed one",
+  "expectReview": true,
+  "note": "Round 9b, from the r8 panel's should-fix B, and it guards two separate things at once. FIRST, it is the false-positive test for isMarkerRunOnly: one non-marker token anywhere turns the paperwork verdict off, so a paste with real vocabulary in it never reaches the could-not-read screen because of that field. SECOND, and this is the money path, it must not buy a rescue. needsRescue asks for fewer than two items and at least four Chinese characters; this paste has one item and SIX Chinese characters, all six of them inside the two lesson numbers, so it used to spend one of her thirty daily model calls on a paste that had already been read correctly and could not make a game either way. A lesson number holds no vocabulary, so it is no longer evidence that there is vocabulary left to find: withoutDocStructureMarkers takes it out of the count. Doc-structure units only. `第1天 第2天 苹果` still counts its markers and still gets its rescue, because 第1天 can be the word she meant. ONE WORD IS NOT A GAME, so the live harness grades this one on the edit table (expectReview): #/set/ must never come up, #/review must, and 苹果 must be a card on it. It is not expectLanding:false, which asserts an EMPTY table and would have thrown away the only thing this fixture checks.",
+  "must": [
+    "苹果"
+  ],
+  "mustNot": [
+    "第1课",
+    "第2课",
+    "第",
+    "课"
+  ],
+  "maxItems": 1
+}
+

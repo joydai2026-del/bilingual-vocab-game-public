@@ -1,0 +1,9 @@
+{
+  "why": "a month and a day she separated herself are two items on a calendar list, not one date",
+  "note": "The date strip paired a month with a day across a space, so the loss was non-monotonic and invisible: 11月 21日 was fine, 11月 21日 31号 came back as ['31号'], and 1月 5日 9号 came back as ['9号']. Adding a fourth item to her list DELETED the first two. This is the branch's own months-and-days feature failing on the shape a teacher types when she puts the whole lesson on one line. A bare month and day now have to be glued into one token (5月9日) to read as a date; with a year in front of them the space is still allowed, because nobody lists years.",
+  "must": ["1月", "5日", "9号", "2月", "21日"],
+  "mustNot": ["月", "日", "号"],
+  "mode": "free",
+  "maxItems": 5
+}
+

@@ -1,0 +1,8 @@
+{
+  "why": "one glossed marker, one bare marker and a plain word list in the same paste: the glossed marker is her card, the bare one is a heading, and neither may shatter into 第 and 课",
+  "note": "Round 9, F1. Round 7c settled that what she typed as a pair stays a pair, but it only held the marker together in the STRUCTURED path (markerGlossary demands EVERY row be a bare marker with a gloss). This paste is not that shape, so it fell to the free path, where splitRuns cuts the term at the digit and the dictionary answers the halves. Measured by Codex against the real public/cedict.json on 44d2a41: 第/but, 课/subject, 苹果, 香蕉. Two phantom cards whose English does not mean their Chinese, and her one real glossed row thrown away. The fix applies the whole-marker rule in the free path too: a 第N unit token is ONE token everywhere, glossed makes a card, bare is a heading and drops.",
+  "must": ["第1课", "苹果", "香蕉"],
+  "mustNot": ["第", "课", "第1", "第2课", "but", "subject"],
+  "maxItems": 3
+}
+

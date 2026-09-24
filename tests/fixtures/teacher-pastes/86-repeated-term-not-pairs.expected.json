@@ -1,0 +1,19 @@
+{
+  "why": "Round 2 review, must-fix 1: the same name explained six times, with a full stop on every line so the definition test passes on all of them. A term the paste uses twice is a speaker, not a word: this must read as sentences, not as two cards.",
+  "must": [
+    "学生",
+    "男孩",
+    "看书",
+    "老师",
+    "大人",
+    "唱歌"
+  ],
+  "mustNot": [
+    "小明",
+    "小红",
+    "他是一个很好的学生"
+  ],
+  "mode": "free",
+  "minItems": 6
+}
+

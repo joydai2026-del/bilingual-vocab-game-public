@@ -1,0 +1,19 @@
+{
+  "why": "A Thanks in the middle of the list is not a sign-off, and the Chinese title above it is not a word.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生",
+    "跑步"
+  ],
+  "mustNot": [
+    "第一",
+    "生词",
+    "第一课生词",
+    "Thanks"
+  ],
+  "minItems": 5,
+  "maxItems": 5
+}
+

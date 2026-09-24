@@ -1,0 +1,259 @@
+/* Sky Tower's own layout, and the flat twin's props.
+
+   The look itself is kit.css: this file only says where Sky Tower's stage sits
+   on the page and what a CSS block, a dust puff and a cloud line look like when
+   there is no WebGL to draw them with. */
+
+/* The tower has to be WATCHABLE while the questions are answered. On a laptop
+   or a projector that means side by side; on a phone there is not enough width
+   for that, so the stage sticks to the top of the screen and the questions
+   scroll under it. Either way the child never loses sight of the tower, which
+   was the first thing the render gate caught: a stacked layout scrolled the
+   whole scene off the top the moment a choice was tapped. */
+.tower-play {
+  display: grid;
+  gap: 14px;
+}
+
+.tower-stage {
+  /* Never wider than the column, so no page ever scrolls sideways. */
+  width: 100%;
+  max-width: 100%;
+  min-height: 180px;
+  height: min(34vh, 300px);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+@media (min-width: 900px) {
+  .tower-play {
+    grid-template-columns: minmax(300px, 1fr) minmax(380px, 1.05fr);
+    align-items: start;
+  }
+
+  .tower-stage {
+    height: min(58vh, 470px);
+    top: 12px;
+  }
+}
+
+.tower-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  align-items: center;
+}
+
+.tower-clock.low {
+  color: #c2410c;
+}
+
+/* The app's win headline is sized for a full-width page. Inside Sky Tower's
+   right-hand column it has to sit next to the tower on a laptop and under a
+   sticky stage on a phone, so it is scoped down here rather than app-wide. */
+.tower-play .final .score {
+  font-size: clamp(19px, 3.4vw, 30px);
+  line-height: 1.25;
+  margin-top: 6px;
+}
+
+.tower-play .final p {
+  margin: 6px 0;
+}
+
+/* Side by side where there is room, stacked where there is not. NOT
+   `flex-direction: column`: the app gives a row's buttons `flex: 1`, and on the
+   column axis that grows them into 150px-tall slabs on a phone. */
+.tower-play .row {
+  flex-wrap: wrap;
+  /* Both end-screen buttons the same height even when one label wraps. */
+  align-items: stretch;
+}
+
+.tower-play .row > .btn {
+  flex: 1 1 220px;
+}
+
+/* The stage is sticky, so anything scrolled to has to clear it. */
+.tower-play .final {
+  scroll-margin-top: calc(min(34vh, 300px) + 12px);
+}
+
+/* The label pinned to the cloud line. `.kit-label` does the shape; this only
+   keeps it out of the way of a tap. */
+.tower-goal {
+  z-index: 2;
+}
+
+/* --- the flat twin -------------------------------------------------------- */
+
+.tower-flat-world {
+  --tower-block: 26px;
+  --tower-base: 21%;
+  position: absolute;
+  inset: 0;
+  transition: transform 0.45s ease-out;
+  will-change: transform;
+}
+
+.tower-flat-island {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(var(--tower-base) - 6%);
+  width: min(62%, 340px);
+}
+
+.tower-flat-grass {
+  height: 18px;
+  border-radius: 999px;
+  border: 4px solid var(--kit-ink);
+  background: var(--kit-mint);
+}
+
+.tower-flat-dirt {
+  width: 82%;
+  margin: -6px auto 0;
+  height: 26px;
+  border-radius: 0 0 26px 26px;
+  border: 4px solid var(--kit-ink);
+  border-top: none;
+  background: var(--kit-butter);
+  box-shadow: 0 8px 0 rgba(43, 45, 66, 0.18);
+}
+
+.tower-flat-stack {
+  position: absolute;
+  left: 50%;
+  bottom: var(--tower-base);
+  width: calc(var(--tower-block) * 3.1);
+  max-width: 60%;
+  transform: translateX(-50%);
+}
+
+.tower-flat-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: var(--tower-block);
+  border-radius: calc(var(--tower-block) * 0.3);
+  border: 3px solid var(--kit-ink);
+  box-sizing: border-box;
+  box-shadow: 0 3px 0 rgba(43, 45, 66, 0.22);
+}
+
+.tower-flat-block--drop {
+  animation: tower-drop 560ms cubic-bezier(0.28, 1.4, 0.5, 1) both;
+}
+
+@keyframes tower-drop {
+  0% {
+    transform: translateY(-220px) scaleY(1);
+  }
+  62% {
+    transform: translateY(0) scaleY(1);
+  }
+  76% {
+    transform: translateY(0) scaleY(0.72) scaleX(1.16);
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+  }
+}
+
+.tower-flat-dust {
+  position: absolute;
+  left: 50%;
+  width: calc(var(--tower-block) * 4.6);
+  height: calc(var(--tower-block) * 1.2);
+  margin-left: calc(var(--tower-block) * -2.3);
+  border-radius: 999px;
+  background: radial-gradient(closest-side, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
+  animation: tower-dust 620ms ease-out both;
+  pointer-events: none;
+}
+
+@keyframes tower-dust {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  22% {
+    opacity: 0.85;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5) translateY(-14px);
+  }
+}
+
+.tower-flat-cloudline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 0;
+}
+
+.tower-flat-cloudline .kit-flat-cloud {
+  bottom: 0;
+}
+
+.tower-goal-flat {
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -140%);
+}
+
+.tower-flat-confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.tower-flat-confetti span {
+  position: absolute;
+  left: 50%;
+  /* Above the finished tower, not inside it: coral paper on a coral block is
+     not a celebration, it is a texture. */
+  top: 14%;
+  width: 11px;
+  height: 17px;
+  border-radius: 2px;
+  border: 2px solid rgba(43, 45, 66, 0.5);
+  box-sizing: border-box;
+  background: var(--kit-coral);
+  animation: tower-confetti 1500ms ease-out var(--d, 0ms) both;
+}
+
+.tower-flat-confetti span:nth-child(3n) {
+  background: var(--kit-butter);
+}
+
+.tower-flat-confetti span:nth-child(3n + 1) {
+  background: var(--kit-lilac);
+}
+
+@keyframes tower-confetti {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--x, 0), 300px) rotate(540deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tower-flat-world,
+  .tower-flat-block--drop,
+  .tower-flat-dust,
+  .tower-flat-confetti span {
+    animation: none;
+    transition: none;
+  }
+}
+

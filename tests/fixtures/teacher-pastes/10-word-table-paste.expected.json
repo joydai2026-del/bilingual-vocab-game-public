@@ -1,0 +1,12 @@
+{
+  "why": "A three-column table pasted out of Word: Chinese, pinyin, English.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [],
+  "mode": "structured"
+}
+

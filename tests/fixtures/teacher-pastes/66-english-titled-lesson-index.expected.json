@@ -1,0 +1,8 @@
+{
+  "why": "she wrote a Chinese term and its English on every row, so every row is a card, whichever numeral she used for the number",
+  "note": "This fixture has been decided three times and this is the last one. Round 6: `第1课 Lesson one` kept its heading on the line, structured parsing read the row as a glossed pair, and 第1课 shattered into the Chinese runs 第 and 课 (measured a67b4c7 AND main). Round 7 fixed that by calling an Arabic numeral proof of a heading, so this paste emptied to no cards. Round 7's own panel then measured the twin shape `第1天 the first day` x5, an ordinary day glossary one digit-style away from fixture 64, and it went from five right cards to ZERO with needsRescue true, into a rescue that cannot recover it (validateRescue rejects any word holding a digit). Two consecutive rounds reversing each other means the question is not decidable from the paste, so it is decided on RECOVERABILITY instead: deleting an unwanted card is one click, retyping a card the reader threw away is not, and an empty answer that buys a paid rescue is worse than both. WHAT SHE TYPED AS A PAIR STAYS A PAIR. The marker is never shattered into 第 + 课; if she did not want these three cards she deletes them on the edit table she is already looking at. THE LOSING SIDE, recorded so round 8 does not rediscover it: a teacher who pastes a pure lesson index gets three cards she has to delete. That is the price, and it is paid knowingly. The no-cards answer is kept for the shape that really holds nothing at all, a bare run of markers with no gloss anywhere: fixture 68.",
+  "must": ["第1课", "第2课", "第3课"],
+  "mustNot": ["第", "课", "第1", "第一"],
+  "maxItems": 3
+}
+

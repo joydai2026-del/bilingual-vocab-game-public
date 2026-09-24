@@ -1,0 +1,13 @@
+{
+  "why": "Traditional characters. The dictionary asset indexes them, so they resolve.",
+  "must": [
+    "蘋果",
+    "香蕉",
+    "老師",
+    "學生",
+    "圖書館"
+  ],
+  "mustNot": [],
+  "mode": "free"
+}
+

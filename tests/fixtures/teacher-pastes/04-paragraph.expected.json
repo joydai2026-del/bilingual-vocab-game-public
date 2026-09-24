@@ -1,0 +1,21 @@
+{
+  "why": "A paragraph. The words are inside sentences and the grammar has to come out.",
+  "must": [
+    "水果",
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生",
+    "图书馆"
+  ],
+  "mustNot": [
+    "今天",
+    "我们",
+    "一起",
+    "很",
+    "和",
+    "也"
+  ],
+  "mode": "free"
+}
+

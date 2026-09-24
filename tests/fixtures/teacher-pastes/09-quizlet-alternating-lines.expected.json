@@ -1,0 +1,12 @@
+{
+  "why": "A Quizlet set page selected on screen and copied: term, then definition, on separate lines. The only path that works for a set the teacher did not create.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [],
+  "mode": "structured"
+}
+

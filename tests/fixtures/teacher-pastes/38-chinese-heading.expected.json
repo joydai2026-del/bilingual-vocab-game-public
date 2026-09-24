@@ -1,0 +1,21 @@
+{
+  "why": "A teacher titles her list in her own language. The title is paperwork, not vocabulary.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生",
+    "跑步"
+  ],
+  "mustNot": [
+    "第一",
+    "单元",
+    "词汇",
+    "生词",
+    "生词表"
+  ],
+  "mode": "free",
+  "minItems": 5,
+  "maxItems": 5
+}
+

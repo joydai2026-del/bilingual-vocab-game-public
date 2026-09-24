@@ -1,0 +1,17 @@
+{
+  "why": "One paste, several shapes, because a teacher builds a list over a week.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "跑步",
+    "游泳",
+    "学生",
+    "图书馆"
+  ],
+  "mustNot": [
+    "今天",
+    "我们"
+  ]
+}
+

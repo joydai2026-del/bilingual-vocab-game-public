@@ -1,0 +1,8 @@
+{
+  "why": "the four calendar units she listed are her lesson; 日期 is the label she wrote above them and is never a card",
+  "note": "`日期：...` is emptied by CJK_DATE_LINE_RE inside stripHeaders, so this paste reaches the zero-card retry, which re-reads it with the paperwork strip switched OFF. That rescued the round-5 glossary (fixture equivalent: 日期：一月 二月 三月 gave 0 cards and went to the paid model) but it re-read the LABEL as well, so 日期 came back as a card on a game about calendar words. Measured a67b4c7 and main: [\"日期\",\"年\",\"月\",\"日\",\"号\"]. The retry now filters its own result: an ordinal fragment (第一 ... 第十, 第N with digits) or a paperwork marker is dropped, and if nothing real is left the empty answer stands so the rescue path is unchanged. Round-6 panel, Codex leg finding 2.",
+  "must": ["年", "月", "日", "号"],
+  "mustNot": ["日期"],
+  "maxItems": 4
+}
+

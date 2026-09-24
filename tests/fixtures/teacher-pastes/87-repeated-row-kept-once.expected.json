@@ -1,0 +1,28 @@
+{
+  "why": "Round 3 review, must-fix 1: fixture 79 with its first row pasted a second time at the end. ONE repeated term used to disqualify the whole run, so 51 terms came back as 173 dictionary fragments with skipped: []. A term used exactly twice is a row she pasted twice: the first pair is kept and the second is reported.",
+  "must": [
+    "科技创新",
+    "人工智能",
+    "语音识别",
+    "图像识别",
+    "数据分析",
+    "深度学习",
+    "解决问题",
+    "适应能力",
+    "模拟",
+    "程序",
+    "产品研发",
+    "研发"
+  ],
+  "mustNot": [
+    "科技",
+    "创新",
+    "电脑",
+    "东西",
+    "用新的科学和技术创造新的东西"
+  ],
+  "mode": "structured",
+  "minItems": 51,
+  "maxItems": 51
+}
+

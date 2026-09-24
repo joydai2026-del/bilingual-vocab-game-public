@@ -1,0 +1,179 @@
+/* The cute-3D look, in CSS. Loaded with the 3D chunk and with the flat twin,
+   so both paths get the same sky, the same type and the same overlay rules.
+
+   The WebGL canvas is transparent; the sky lives here. That is the whole trick
+   behind the pastel look, and it is why the flat twin can reuse it unchanged. */
+
+:root {
+  --kit-mint: #b7f0d3;
+  --kit-butter: #ffe8a3;
+  --kit-sky: #bfe3ff;
+  --kit-coral: #ffb3a7;
+  --kit-lilac: #d9c8ff;
+  --kit-cloud: #ffffff;
+  --kit-ink: #2b2d42;
+}
+
+/* --- the stage: sky behind, canvas on top, DOM labels above that ---------- */
+
+.kit-stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  overflow: hidden;
+  border-radius: 18px;
+  isolation: isolate;
+}
+
+.kit-stage > canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.kit-sky-day {
+  background: linear-gradient(180deg, #bfe3ff 0%, #dff0ff 42%, #fff4e4 100%);
+}
+
+.kit-sky-sunset {
+  background: linear-gradient(180deg, #d9c8ff 0%, #ffc9d8 46%, #ffe8a3 100%);
+}
+
+/* --- the DOM overlay: every glyph in the app lives in here ---------------- */
+
+.kit-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Anything interactive opts back in. */
+.kit-overlay .kit-hit {
+  pointer-events: auto;
+}
+
+/* --- type ----------------------------------------------------------------- */
+
+.kit-title {
+  margin: 0;
+  font-family: 'Baloo 2', 'Nunito', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    system-ui, sans-serif;
+  font-weight: 900;
+  font-size: clamp(28px, 6vw, 62px);
+  line-height: 1.06;
+  letter-spacing: 0.01em;
+  color: var(--kit-cloud);
+  text-align: center;
+  -webkit-text-stroke: 4px var(--kit-ink);
+  paint-order: stroke fill;
+  text-shadow:
+    0 5px 0 var(--kit-ink),
+    0 9px 18px rgba(43, 45, 66, 0.32);
+}
+
+.kit-title .kit-pinyin {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.36em;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  -webkit-text-stroke: 2.5px var(--kit-ink);
+  color: var(--kit-butter);
+  text-shadow: 0 3px 0 var(--kit-ink);
+}
+
+/* A label pinned to a world point by `kit.project()`. The caller sets
+   `left`/`top` in CSS pixels; the translate keeps the anchor at its centre. */
+.kit-label {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 2.5px solid var(--kit-ink);
+  background: var(--kit-cloud);
+  color: var(--kit-ink);
+  font-family: 'Baloo 2', 'Nunito', 'PingFang SC', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  white-space: nowrap;
+  box-shadow: 0 3px 0 var(--kit-ink);
+}
+
+/* --- the flat twin -------------------------------------------------------- */
+
+/* Same sky, same type, same overlay. Only the props change: CSS rounded boxes
+   instead of geometry. Games reuse these two classes for their own twins. */
+
+.kit-flat-platform {
+  position: absolute;
+  border-radius: 22px;
+  border: 4px solid var(--kit-ink);
+  box-shadow: 0 8px 0 rgba(43, 45, 66, 0.22);
+}
+
+.kit-flat-bean {
+  position: absolute;
+  /* Height comes from the width, never from the stage: a percentage height on
+     a 16:9 box turns every bean into a pancake. */
+  aspect-ratio: 0.8;
+  border-radius: 48% 48% 44% 44% / 56% 56% 40% 40%;
+  border: 4px solid var(--kit-ink);
+  box-shadow: 0 6px 0 rgba(43, 45, 66, 0.25);
+}
+
+.kit-flat-bean::before,
+.kit-flat-bean::after {
+  content: '';
+  position: absolute;
+  top: 28%;
+  width: 22%;
+  height: 22%;
+  border-radius: 50%;
+  background: var(--kit-ink);
+}
+
+.kit-flat-bean::before {
+  left: 22%;
+}
+
+.kit-flat-bean::after {
+  right: 22%;
+}
+
+.kit-flat-shadow {
+  position: absolute;
+  aspect-ratio: 4;
+  border-radius: 50%;
+  background: rgba(43, 45, 66, 0.16);
+}
+
+.kit-flat-cloud {
+  position: absolute;
+  aspect-ratio: 2.6;
+  border-radius: 999px;
+  background: var(--kit-cloud);
+}
+
+.kit-flat-cloud::before,
+.kit-flat-cloud::after {
+  content: '';
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--kit-cloud);
+}
+
+.kit-flat-cloud::before {
+  width: 48%;
+  left: 12%;
+  bottom: 40%;
+}
+
+.kit-flat-cloud::after {
+  width: 34%;
+  right: 14%;
+  bottom: 46%;
+}
+

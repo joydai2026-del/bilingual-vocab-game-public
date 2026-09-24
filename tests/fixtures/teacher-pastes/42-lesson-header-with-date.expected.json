@@ -1,0 +1,9 @@
+{
+  "why": "the date on the lesson line is a date, not three vocabulary words",
+  "note": "Probed live 2026-09-08 against /api/extract: 2026年9月8日 became the cards 年, 月 and 日, sitting in a game about fruit. The teacher wrote four words.",
+  "must": ["苹果", "香蕉", "葡萄", "西瓜"],
+  "mustNot": ["年", "月", "日", "第三"],
+  "mode": "free",
+  "maxItems": 4
+}
+

@@ -1,0 +1,8 @@
+{
+  "why": "the same alternating shape on a unit a class counts: her own English is the meaning of the card, never the one the reader can build",
+  "note": "Round 11, from the round-10 panel's F2, and it is the twin of fixture 74 rather than a copy of it. Where 74 lost both lines, this one kept the marker and answered `day 1` and `day 2`: a built gloss written over the gloss she had typed one line down. `day N` exists for the bare marker with no gloss anywhere (fixture 71), and that is the whole of its job. THE TEACHER'S GLOSS WINS. The point of grading it separately is that the two failures had opposite shapes and the same cause, so a fix that only restores the cards would still leave this paste answering something she did not write.",
+  "must": ["第1天", "第2天"],
+  "mustNot": ["day 1", "day 2", "第", "天"],
+  "maxItems": 2
+}
+

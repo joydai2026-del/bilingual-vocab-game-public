@@ -1,0 +1,14 @@
+{
+  "why": "One line, Chinese commas. Reported 2026-09-08: produced one giant word.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [
+    "苹果，香蕉，老师，学生"
+  ],
+  "mode": "free"
+}
+

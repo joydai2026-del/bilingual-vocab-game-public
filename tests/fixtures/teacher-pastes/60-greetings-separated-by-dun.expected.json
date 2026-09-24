@@ -1,0 +1,9 @@
+{
+  "why": "、 is how a Chinese list is punctuated, so the same greetings lesson as fixture 56 typed with separators instead of spaces",
+  "note": "Fixture 56 fixed the space-separated spelling of this lesson and left this one broken, which is the same 'validated against the paste that motivated it, not the neighbouring paste' failure that caused the original bug. readsAsMessage counted 、 and ， as message punctuation, so the paste read as a WeChat message and 老师好 was deleted as the message's opening. A list separator is not a sentence: the signal is now sentence-final 。！？!?, or 请, or a Chinese word with a colon after it. Fixtures 54 and 57 all carry one of those and still lose their sign-off. 老师好 is not a CC-CEDICT headword, so the card it yields is 老师.",
+  "must": ["老师", "你好", "谢谢", "再见"],
+  "mustNot": [],
+  "mode": "free",
+  "maxItems": 4
+}
+

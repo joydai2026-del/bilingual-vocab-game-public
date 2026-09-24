@@ -1,0 +1,11 @@
+{
+  "why": "Bracketed numbers.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": []
+}
+

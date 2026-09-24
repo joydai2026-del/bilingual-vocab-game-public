@@ -1,0 +1,15 @@
+{
+  "why": "What a photo of a whiteboard comes back as: a stray mark, and a word cut in half by the picture.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "图书馆"
+  ],
+  "mustNot": [
+    "生词表",
+    "香",
+    "蕉"
+  ]
+}
+

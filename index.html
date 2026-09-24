@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#1257a8" />
+    <meta
+      name="description"
+      content="Paste a Chinese vocabulary list and get games the whole class can play: Cloud Climb, Treasure Dash, Memory Match and a Race Quiz."
+    />
+    <title>Vocab Games</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <noscript>
+      <p style="font-size: 22px; padding: 20px">
+        This page needs JavaScript turned on to make the games.
+      </p>
+    </noscript>
+    <!--
+      CC BY-SA 4.0 requires visible attribution for the dictionary data behind
+      the English column. Styled inline on purpose: src/client/styles.css is
+      owned elsewhere, and this line must survive any re-render of #app.
+    -->
+    <footer
+      style="
+        margin: 24px 16px 20px;
+        text-align: center;
+        font: 13px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif;
+        color: #5a6472;
+      "
+    >
+      English glosses use
+      <a
+        href="https://www.mdbg.net/chinese/dictionary?page=cc-cedict"
+        rel="noopener noreferrer"
+        target="_blank"
+        style="color: #1257a8"
+        >CC-CEDICT</a
+      >
+      by MDBG, licensed
+      <a
+        href="https://creativecommons.org/licenses/by-sa/4.0/"
+        rel="noopener noreferrer"
+        target="_blank"
+        style="color: #1257a8"
+        >CC BY-SA 4.0</a
+      >.
+    </footer>
+    <script type="module" src="/src/client/main.ts"></script>
+  </body>
+</html>
+

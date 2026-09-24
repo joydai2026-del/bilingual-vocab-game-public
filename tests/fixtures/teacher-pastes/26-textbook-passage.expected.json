@@ -1,0 +1,22 @@
+{
+  "why": "A textbook passage with eight target words buried in it.",
+  "must": [
+    "学校",
+    "图书馆",
+    "老师",
+    "学生",
+    "跑步",
+    "游泳",
+    "苹果",
+    "香蕉"
+  ],
+  "mustNot": [
+    "我们",
+    "那里",
+    "很",
+    "都",
+    "一个"
+  ],
+  "mode": "free"
+}
+

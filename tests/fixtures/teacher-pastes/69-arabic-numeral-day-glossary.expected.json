@@ -1,0 +1,8 @@
+{
+  "why": "fixture 64 with Arabic digits instead of Chinese numerals; the same teacher, the same handout, and it must give the same five cards",
+  "note": "The paste round 7's panel used to price the numeral rule. On the round 7 tree these five rows returned ZERO cards with needsRescue true, one digit-style away from fixture 64's five, and the rescue could not save them either: validateRescue rejects any word that is not all Chinese, so 第1天 is thrown away whatever the model returns and the teacher lands empty having spent up to three of her thirty daily model calls. Five typed cards lost and quota burned is the worst outcome the reader can produce, which is what decided round 7c: what she typed as a PAIR stays a pair. The marker keeps its whole term (第1天, not 第 plus 天) and the gloss she wrote beside it. Pinned here so a later round that likes the numeral signal again has to look at this file first.",
+  "must": ["第1天", "第5天"],
+  "mustNot": ["第", "天", "第1", "第一"],
+  "maxItems": 5
+}
+

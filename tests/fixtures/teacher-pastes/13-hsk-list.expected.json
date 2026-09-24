@@ -1,0 +1,11 @@
+{
+  "why": "An HSK word list: rank, word, pinyin, part of speech, gloss.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "跑步"
+  ],
+  "mustNot": []
+}
+

@@ -1,0 +1,8 @@
+{
+  "why": "Round 1 review, Codex must-fix 2: a word on one line and the same word with its English gloss on the next, which is how a teacher checks her own list. The gloss row is longer than the bare word, so it used to be read as that word's Chinese definition. A zh-zh set has no English in it by design, so a Latin run now disqualifies a line from being a definition.",
+  "must": ["科技创新", "人工智能", "语音识别", "图像识别", "数据分析"],
+  "mustNot": ["科技", "创新", "语音", "识别"],
+  "mode": "structured",
+  "maxItems": 5
+}
+

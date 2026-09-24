@@ -1,0 +1,15 @@
+{
+  "why": "Slashes as separators.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生",
+    "跑步"
+  ],
+  "mustNot": [
+    "苹果/香蕉/老师/学生/跑步"
+  ],
+  "mode": "free"
+}
+

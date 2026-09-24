@@ -1,0 +1,9 @@
+{
+  "why": "a message that ends with 谢谢老师 after her list said goodbye, it did not teach two words",
+  "note": "The other side of fixture 56, kept next to it so the position gate can never be loosened by accident. This paste is a MESSAGE (a colon, ideographic commas, a list header) and the sign-off is its LAST run on its LAST line, which is the one place it is a sign-off. 谢谢 on its own inside a beginner's word list is still her word (fixture 40) and a bare 谢谢老师 with nothing around it is two cards, never zero, because zero sends the worker to the paid model rescue.",
+  "must": ["苹果", "香蕉", "葡萄"],
+  "mustNot": ["谢谢", "老师", "生词", "这周"],
+  "mode": "free",
+  "maxItems": 3
+}
+

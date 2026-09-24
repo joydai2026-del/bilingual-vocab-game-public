@@ -1,0 +1,9 @@
+{
+  "why": "a run of lesson markers with no gloss anywhere holds no vocabulary, so the honest answer is no cards, and nobody should pay a model to guess at it",
+  "note": "This is the shape fixture 66 used to stand for, kept after round 7c moved 66 to the other side. Nothing here is a word: it is a contents page. Every reader below finds something in it and none of them is right. The segmenter cards 第 and 课 off the last marker in the run (Codex, round 7: `第1课 第2课` returned [\"第\",\"课\"], because the loop in stripHeaders takes the leading markers off and leaves the final one on the line). The empty answer the strip does produce is unlabelled, so needsRescue fires on it (fewer than 2 items, 4 or more Chinese characters) and the worker buys up to three model calls out of a 30-per-IP-per-day budget to be told the same nothing. `paperworkOnly` is the reader saying the empty answer was DELIBERATE: needsRescue refuses it, the client stops re-parsing the paste itself, and the teacher lands on the could-not-read screen she can act on. expectLanding false asks the harness to grade the opposite outcome: the games page is the failure here, the edit table is the pass.",
+  "must": [],
+  "mustNot": ["第", "课", "第1", "第1课", "第2课"],
+  "maxItems": 0,
+  "expectLanding": false
+}
+

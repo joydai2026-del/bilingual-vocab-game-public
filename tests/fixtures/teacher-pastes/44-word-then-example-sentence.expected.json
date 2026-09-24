@@ -1,0 +1,8 @@
+{
+  "why": "a word she wrote in front of a colon is her word, even when the stopword list calls it grammar",
+  "note": "Probed live 2026-09-08 against /api/extract: 学习 vanished from `学习：我每天学习中文。` because the example sentence makes the paste read as prose and 学习 is on the prose stopword list. She declared it by writing it before the colon.",
+  "must": ["喜欢", "学习", "帮助"],
+  "mustNot": [],
+  "mode": "free"
+}
+

@@ -1,0 +1,9 @@
+{
+  "why": "a 第N unit followed by a TAB is her word with its gloss, not a heading over a list",
+  "note": "The same-line heading rule used \\s* between the marker and what follows, and \\s* eats a TAB. So on the Quizlet and Anki export shape this onboarding is built around, `第一天<TAB>the first day` was read as a heading called 第一天 over a list called `the first day`, and a whole glossary of 第一天 / 第二天 / 第三章 came back EMPTY, which sends the worker to the paid model rescue. Mixed into an ordinary glossary the loss was silent instead: the 第一天 row just vanished. Every one of these words worked on main. 第一天, 第三章 and 第一节 are ordinary HSK vocabulary. A heading is now a marker followed by a SPACE OR A COLON and then a list; a tab, a pipe or a comma is a column separator and the row keeps its card.",
+  "must": ["第一天", "第二天", "第三章", "苹果", "香蕉"],
+  "mustNot": ["第", "天", "章", "第一", "第二", "第三"],
+  "mode": "structured",
+  "maxItems": 5
+}
+

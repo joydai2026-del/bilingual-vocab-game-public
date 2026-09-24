@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.wrangler/
+public/cedict.json
+.env
+.dev.vars
+.DS_Store

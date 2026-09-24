@@ -1,0 +1,14 @@
+{
+  "why": "A Google Sheets CSV, which quotes every field and carries a header row.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "图书馆"
+  ],
+  "mustNot": [
+    "Chinese"
+  ],
+  "mode": "structured"
+}
+

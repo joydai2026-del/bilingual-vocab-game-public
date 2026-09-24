@@ -1,0 +1,9 @@
+{
+  "why": "the lesson number in front of her months lesson is paperwork, and it must not take the months with it",
+  "note": "The round-2f whole-paste calendar gate asked whether every digit-fronted single character in the paste names a calendar unit, and 第1课 puts a digit in front of one that does not. So the commonest heading in Chinese teaching switched the calendar rule off and three months came back as one card, ['第','课','月']. The Chinese-numeral spelling of the same heading was perfect, which meant the numeral she happened to type decided whether her lesson worked. Two fixes, both here: an ordinal after 第 is not a list token, so the gate ignores it, and a LEADING 第N课 / 第N周 / 第N页 / 第N单元 now comes off a line that has her list after it, exactly as it already came off a line of its own. Fixture 55 still holds the other side: one numbered NON-calendar character still turns the calendar rule off.",
+  "must": ["1月", "2月", "3月"],
+  "mustNot": ["第", "课", "月"],
+  "mode": "free",
+  "maxItems": 3
+}
+

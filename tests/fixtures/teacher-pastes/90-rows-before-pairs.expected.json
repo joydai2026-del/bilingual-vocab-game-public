@@ -1,0 +1,23 @@
+{
+  "why": "Round 3 review, must-fix 3: fixture 80 with the spreadsheet ABOVE the pairs instead of below. The first line of a paste was exempt from parsing as the set's title, so 苹果 was thrown away for standing where a title stands. Only a heading is a title.",
+  "must": [
+    "科技创新",
+    "人工智能",
+    "就业",
+    "失业",
+    "市场",
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [
+    "找到工作",
+    "东西",
+    "地方"
+  ],
+  "mode": "structured",
+  "minItems": 9,
+  "maxItems": 9
+}
+

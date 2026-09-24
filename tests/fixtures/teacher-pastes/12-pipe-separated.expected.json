@@ -1,0 +1,12 @@
+{
+  "why": "A markdown-ish list a teacher built by hand.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [],
+  "mode": "structured"
+}
+

@@ -1,0 +1,12 @@
+{
+  "why": "A two-column table flattened by the copy: every Chinese word, then every English one. The English must not be paired onto the wrong word.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [],
+  "mode": "free"
+}
+

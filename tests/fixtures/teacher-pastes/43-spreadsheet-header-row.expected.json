@@ -1,0 +1,9 @@
+{
+  "why": "the column titles of her spreadsheet are not vocabulary",
+  "note": "Probed live 2026-09-08 against /api/extract: a paste straight out of Excel put 序号, 生词, 拼音 and 英文 on cards ahead of the three fruit. An English header row (Word/Pinyin/English) is already caught; the Chinese one was not.",
+  "must": ["苹果", "香蕉", "葡萄"],
+  "mustNot": ["序号", "生词", "拼音", "英文"],
+  "mode": "structured",
+  "maxItems": 3
+}
+

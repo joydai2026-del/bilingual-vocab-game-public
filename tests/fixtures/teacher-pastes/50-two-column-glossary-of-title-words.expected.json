@@ -1,0 +1,9 @@
+{
+  "why": "in a two-column glossary the words for word, pinyin, meaning and example are the vocabulary",
+  "note": "The round-2 column-title rule needed only that every field be a title word, and in a two-column export that is the shape of an ORDINARY row. Measured 2026-09-08: this paste returned nothing at all. A title row now has to be the first line of the paste AND have a row under it that is not another rack of titles, and every row here is titles.",
+  "must": ["词", "拼音", "意思", "例句"],
+  "mustNot": [],
+  "mode": "structured",
+  "maxItems": 4
+}
+

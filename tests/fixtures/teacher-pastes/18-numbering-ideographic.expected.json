@@ -1,0 +1,11 @@
+{
+  "why": "A numbered list with the ideographic comma, which is what a Chinese keyboard gives.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": []
+}
+

@@ -1,0 +1,15 @@
+{
+  "why": "A list forwarded in an email. Everything after the sign-off is signature.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [
+    "Ms. Chen",
+    "Sent from my iPhone",
+    "Best,"
+  ]
+}
+

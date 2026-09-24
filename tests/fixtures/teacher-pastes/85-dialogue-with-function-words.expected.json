@@ -1,0 +1,19 @@
+{
+  "why": "Round 2 review, must-fix 1: a six-turn dialogue whose answers all carry 的 and 是, the two commonest characters in the language. The pair detector's function-word test let every turn through, so the speakers became the only two cards and nine real words were thrown away. The speakers repeat, and a vocabulary list never explains the same word twice.",
+  "must": [
+    "学校",
+    "图书馆",
+    "有意思",
+    "故事",
+    "明天"
+  ],
+  "mustNot": [
+    "小明",
+    "小红",
+    "你今天是去哪里的呢",
+    "我去的是学校的图书馆"
+  ],
+  "mode": "free",
+  "minItems": 9
+}
+

@@ -1,0 +1,23 @@
+{
+  "why": "the first column is the lesson number and the second is the word, so the word is the term and the lesson number is paperwork",
+  "note": "Round 9b, from the r8 panel's must-fix. This is what a teacher gets out of Excel or Google Sheets when her handout has a Lesson column: `Lesson | Chinese | English`. parse.ts gave the term slot to the FIRST Chinese column unconditionally, and round 7c's marker rule then promoted that marker to a glossed pair, so this paste returned five cards reading 第1课=apple, 第2课=banana and so on: every word she typed gone, and in its place a confident WRONG ANSWER KEY (the class plays a game whose answer to `apple` is `chapter 1`). Main was broken too but visibly so, two obvious junk cards she deletes; this was invisibly broken, which is worse for a teacher who will not proofread forty rows. The rule needs TWO Chinese columns to fire, so fixture 66 (`第1课\\tLesson one`, one Chinese column) still keeps the marker as its term and her pair is still a card: round 7c is not reopened. Only a DOC-STRUCTURE marker is dropped this way (课, 单元, 章), never a countable one, because `第1天` can be the word she meant and the round 9 unit split exists to say so. THE RESIDUAL THIS NOTE USED TO RECORD IS CLOSED (round 11b, fixture 76): `第1周\\t苹果\\tapple` x3 answered 第1周=apple until the rule learned to ask per COLUMN. A countable marker is still kept on a single row, where nothing can tell a Week column from a word she typed.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生",
+    "你好"
+  ],
+  "mustNot": [
+    "第1课",
+    "第2课",
+    "第3课",
+    "第4课",
+    "第5课",
+    "第",
+    "课"
+  ],
+  "mode": "structured",
+  "maxItems": 5
+}
+

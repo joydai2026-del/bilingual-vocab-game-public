@@ -1,0 +1,9 @@
+{
+  "why": "a teacher copying a table out of a PDF or Word gets spaces, not tabs, and the titles are still titles",
+  "note": "Fixture 43 is the same table with tabs and was already handled. The space-separated form was not: 序号, 拼音 and 英文 arrived as three phantom cards on main AND on the round-2 branch, which is the shape the original bug report actually named.",
+  "must": ["苹果", "香蕉", "葡萄"],
+  "mustNot": ["序号", "生词", "拼音", "英文"],
+  "mode": "structured",
+  "maxItems": 3
+}
+

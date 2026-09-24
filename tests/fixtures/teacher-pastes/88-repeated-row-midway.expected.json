@@ -1,0 +1,28 @@
+{
+  "why": "Round 3 review, must-fix 1, the same repeat in the MIDDLE of the run rather than at its end: the run must not split around it either. 51 terms, and one line saying which row she doubled.",
+  "must": [
+    "科技创新",
+    "人工智能",
+    "语音识别",
+    "图像识别",
+    "数据分析",
+    "深度学习",
+    "解决问题",
+    "适应能力",
+    "模拟",
+    "程序",
+    "产品研发",
+    "研发"
+  ],
+  "mustNot": [
+    "科技",
+    "创新",
+    "电脑",
+    "东西",
+    "用新的科学和技术创造新的东西"
+  ],
+  "mode": "structured",
+  "minItems": 51,
+  "maxItems": 51
+}
+

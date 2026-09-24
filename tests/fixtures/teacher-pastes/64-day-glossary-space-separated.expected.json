@@ -1,0 +1,8 @@
+{
+  "why": "a 第N unit followed by a SPACE and an English gloss is her word with its meaning, not a heading over a list",
+  "note": "Fixture 62 is this same glossary with a TAB, and round 4 fixed the tab. Round 5 found the hole one keystroke over: the heading rule accepted a bare space run followed by any non-space, and a space is the commonest term-gloss separator a teacher types (a two-column Word or PDF table pastes as spaces, and so does anything hand-typed). Measured on 94f907c, these five rows returned ZERO cards with needsRescue=true, so a glossary that works on main went straight to the paid model. What decides it now is what FOLLOWS the space: `第一课 你好 谢谢` is a heading over a Chinese list, `第一天 the first day` is her word and its English. A colon or a glued 的 is unambiguous and is never asked the question.",
+  "must": ["第一天", "第二天", "第三章", "苹果", "香蕉"],
+  "mustNot": ["第", "天", "章", "第一", "第二", "第三"],
+  "maxItems": 5
+}
+

@@ -1,0 +1,9 @@
+{
+  "why": "注意： introduces a notice and 生词： introduces a list; neither is a card, and the list after the marker is",
+  "note": "Two failures in one paste. 注意 became a card because round 2 let any paperwork word in front of a colon count as declared. And 学习 练习 复习 written AFTER 生词： were dropped as paperwork on main and on the branch, so a lesson whose words are the study verbs came back empty. A paperwork word before a colon now has to be used again in the sentence after it (or sit among several such lines), and everything after the marker on the line is the list she introduced.",
+  "must": ["明天", "考试", "学习", "练习", "复习"],
+  "mustNot": ["注意", "生词"],
+  "mode": "free",
+  "maxItems": 5
+}
+

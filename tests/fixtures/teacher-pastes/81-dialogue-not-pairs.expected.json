@@ -1,0 +1,7 @@
+{
+  "why": "Round 1 review, Claude must-fix 8: a pasted dialogue. Every line is a short all-CJK run, so under the first pair rule the paste reached 100% coverage and came back as two proper-noun cards (小明, 小红) with the other speaker's line as the meaning. MIN_WORDS is 2, so the games opened broken. A definition now has to be half again its term's length AND carry a function word or a full stop, which no turn of a dialogue does.",
+  "must": ["今天", "哪里", "图书馆", "看书", "喜欢", "什么", "故事", "我们"],
+  "mustNot": ["小明", "小红"],
+  "mode": "free"
+}
+

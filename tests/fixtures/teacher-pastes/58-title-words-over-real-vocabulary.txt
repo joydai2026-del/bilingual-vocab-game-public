@@ -1,0 +1,4 @@
+词	word
+拼音	pinyin
+苹果	apple
+

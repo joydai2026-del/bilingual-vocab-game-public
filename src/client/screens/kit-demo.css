@@ -1,0 +1,57 @@
+/* Layout for the hidden #/kit-demo page only. The look itself is kit.css. */
+
+/* The stage breaks out of the app shell's 1100px column: a game fills the
+   screen, and so must the page the games are eyeballed on. */
+.kit-demo {
+  position: fixed;
+  inset: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #f4f6fb;
+}
+
+.kit-demo .kit-stage {
+  height: 100%;
+  min-height: 320px;
+}
+
+.kit-demo .kit-title-slot {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92%;
+}
+
+.kit-demo .kit-toggle {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 3px solid var(--kit-ink);
+  background: var(--kit-butter);
+  color: var(--kit-ink);
+  font-family: 'Baloo 2', 'Nunito', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 var(--kit-ink);
+}
+
+.kit-demo .kit-toggle:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--kit-ink);
+}
+
+.kit-demo .kit-mode {
+  position: absolute;
+  left: 14px;
+  bottom: 16px;
+  font-family: 'Baloo 2', 'Nunito', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--kit-ink);
+  opacity: 0.65;
+}
+

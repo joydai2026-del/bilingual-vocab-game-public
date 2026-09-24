@@ -1,0 +1,9 @@
+{
+  "why": "a measure-word phrase teaches the noun, and the noun is often one character",
+  "note": "Probed live 2026-09-08 against /api/extract: `一本书 一支笔 三个苹果 两只猫` came back with ONE card, 苹果. 书, 笔 and 猫 were lost because a single character the segmenter produced is dropped, and the counter in front of them is not a word either. Q4 is answered head-noun for now; the whole phrase (一本书) stays a one-line switch in measureWordPhrase.",
+  "must": ["书", "笔", "苹果", "猫"],
+  "mustNot": ["一本", "一支", "三个", "两只", "一本书", "一支笔", "三个苹果", "两只猫"],
+  "mode": "free",
+  "maxItems": 4
+}
+

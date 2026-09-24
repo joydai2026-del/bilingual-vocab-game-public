@@ -1,0 +1,5 @@
+序号 生词 拼音 英文
+1 苹果 píngguǒ apple
+2 香蕉 xiāngjiāo banana
+3 葡萄 pútáo grape
+

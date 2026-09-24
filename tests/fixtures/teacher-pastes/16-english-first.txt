@@ -1,0 +1,5 @@
+apple 苹果
+banana 香蕉
+teacher 老师
+student 学生
+

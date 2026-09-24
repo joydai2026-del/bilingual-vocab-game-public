@@ -1,0 +1,9 @@
+{
+  "why": "Chinese she put in brackets is a note about the word, not another word",
+  "note": "Probed live 2026-09-08 against /api/extract: `苹果（水果）香蕉（水果）老师（人）` returned 水果 and 人 as cards of their own. Bracketed pinyin was already read as a reading; bracketed Chinese had nothing, so the category note became vocabulary. A bracketed English gloss (`苹果 (apple)`) is untouched and still attaches.",
+  "must": ["苹果", "香蕉", "老师"],
+  "mustNot": ["水果", "人"],
+  "mode": "free",
+  "maxItems": 3
+}
+

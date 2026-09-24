@@ -1,0 +1,16 @@
+{
+  "why": "A run of characters with nothing between them. Only segmentation can read this.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生",
+    "跑步",
+    "游泳"
+  ],
+  "mustNot": [
+    "苹果香蕉老师学生跑步游泳"
+  ],
+  "mode": "free"
+}
+

@@ -1,0 +1,11 @@
+{
+  "why": "A numbered list with a full stop.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": []
+}
+

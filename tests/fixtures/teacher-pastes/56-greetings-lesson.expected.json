@@ -1,0 +1,9 @@
+{
+  "why": "on a bare list of greetings 老师好 is the lesson, not the way a message opened",
+  "note": "The sign-off run had no idea where it sat in the paste, so a 老师好 or a 谢谢老师 ANYWHERE was deleted. This is the standard first-week greetings lesson and it came back holding three of its four words. The English twin of this rule already took isLastNonEmpty for exactly this reason (see isSignatureOpener); the Chinese one took nothing. It now drops a sign-off only in a paste that reads as a MESSAGE (punctuation, 请, or a marker) and only at the first or last run of it, so fixture 54 still loses 谢谢老师 and a bare greetings list keeps everything. 老师好 itself is not a CC-CEDICT headword, so the card it yields is 老师.",
+  "must": ["老师", "你好", "谢谢", "再见"],
+  "mustNot": [],
+  "mode": "free",
+  "maxItems": 4
+}
+

@@ -1,0 +1,422 @@
+/* Tone Catcher. Loaded with either renderer, so both twins get the same lane
+   labels, the same contours and the same hit areas. The sky, the overlay rules
+   and the flat prop shapes come from kit.css. */
+
+.tc-host {
+  margin: 8px 0 6px;
+}
+
+.tc-stage {
+  /* The game also sets `min-height` inline, so a canvas always has somewhere to
+     draw even in the moment before this lazily loaded stylesheet lands. The
+     real box is here, because only a stylesheet can answer a media query. */
+  width: 100%;
+  /* A very wide, short stage turns the track into a ribbon in a sea of sky, so
+     the box is capped and centred rather than stretched to the page. */
+  max-width: 1040px;
+  margin-inline: auto;
+  height: min(48vh, 420px);
+}
+
+.tc-controls {
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+/* The replay button sits beside the difficulty dial, not under it: a whole
+   line of vertical space is the difference between seeing the finish of the
+   track on a 800-tall laptop and having to scroll during play. */
+.tc-replay {
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding-inline: 22px;
+}
+
+/* Speed: a second axis beside Difficulty. It is allowed to grow, so on a 390 px
+   phone the wrapping row drops the whole dial onto its own line rather than
+   squeezing the track down to a stub. */
+/* A <label>, so the global label rule would otherwise print the whole row in
+   700 and leave the readout no weight of its own to stand out with. Climb's
+   dial reads the same way: a normal-weight row, one bold stop name. */
+.tc-speed {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 220px;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.tc-speed-title {
+  font-weight: 600;
+}
+
+.tc-speed-end {
+  line-height: 1;
+}
+
+.tc-speed-range {
+  flex: 1 1 auto;
+  min-width: 70px;
+  max-width: 180px;
+  margin: 0;
+}
+
+/* Fixed width, so the readout going from Chill to Steady does not shove the
+   slider sideways under the finger that is dragging it. */
+.tc-speed-name {
+  min-width: 4.2em;
+}
+
+.tc-hint {
+  margin: 2px 0 0;
+  font-size: 13px;
+}
+
+/* --- lane hit areas -------------------------------------------------------- */
+
+.tc-lanes {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tc-lane {
+  appearance: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background 140ms ease;
+}
+
+.tc-lane:focus-visible {
+  outline: 4px solid var(--kit-ink);
+  outline-offset: -6px;
+}
+
+.tc-lane-here {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.tc-lane-right {
+  background: rgba(120, 226, 168, 0.34);
+}
+
+.tc-lane-wrong {
+  background: rgba(255, 138, 122, 0.3);
+}
+
+/* --- gate labels ----------------------------------------------------------- */
+
+.tc-gate-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.tc-gate-label {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transform-origin: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 14px;
+  border-radius: 18px;
+  border: 3px solid var(--kit-ink);
+  background: var(--kit-cloud);
+  color: var(--kit-ink);
+  font-family: 'Baloo 2', 'Nunito', 'PingFang SC', 'Hiragino Sans GB', system-ui, sans-serif;
+  font-weight: 800;
+  white-space: nowrap;
+  box-shadow: 0 4px 0 var(--kit-ink);
+  transition: opacity 140ms ease;
+  will-change: transform, left, top;
+}
+
+.tc-gate-label .tc-zh {
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+.tc-gate-label .tc-gloss {
+  font-size: 20px;
+  line-height: 1.15;
+  max-width: 34vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* The same gate carrying a Chinese DEFINITION. The ellipsis above cut it
+   mid-clause at 34vw (round 1 review, 390 px), which on a zh-zh set means the
+   child never sees the half of the sentence that tells the words apart. It
+   wraps at a smaller size instead. */
+.tc-gate-label .tc-gloss.tc-zh-gloss {
+  font-size: 15px;
+  line-height: 1.25;
+  /* A FIXED cap, not a viewport one. The label is centred on its lane, so a
+     width measured against the whole viewport hangs off both ends of the
+     stage; this is about a lane wide. */
+  max-width: 240px;
+  white-space: normal;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+  /* Three lines, so the gate stays a gate. A definition long enough to need a
+     fourth is not something a child reads off a moving label anyway; the word
+     they are answering is the one they just heard. */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.tc-gate-label .tc-py {
+  font-size: 19px;
+  letter-spacing: 0.02em;
+}
+
+/* --- the tone contour ------------------------------------------------------ */
+
+.tc-contours {
+  display: flex;
+  gap: 6px;
+  align-items: flex-end;
+}
+
+.tc-contour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  /* Colour is decoration. The curve and the printed number carry the tone. */
+  color: #3b6ea5;
+}
+
+.tc-contour b {
+  font-size: 11px;
+  font-weight: 800;
+  opacity: 0.72;
+}
+
+.tc-tone-1 { color: #2f7d5e; }
+.tc-tone-2 { color: #b1671a; }
+.tc-tone-3 { color: #7a4bb5; }
+.tc-tone-4 { color: #b23a34; }
+.tc-tone-5 { color: #5a6070; }
+
+/* --- the flat twin --------------------------------------------------------- */
+
+/* Three trapezoids sharing one box, so they can never drift out of alignment
+   with each other: the clip-path polygons are computed in tone-catcher-css.ts
+   from one set of road edges. */
+.tc-flat-track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 28%;
+  bottom: 2%;
+}
+
+.tc-flat-lane {
+  position: absolute;
+  inset: 0;
+  transition: background 160ms ease;
+}
+
+.tc-flat-lane-0 { background: var(--kit-mint); }
+.tc-flat-lane-1 { background: var(--kit-butter); }
+.tc-flat-lane-2 { background: var(--kit-lilac); }
+
+.tc-flat-lane-lit {
+  background: #78e2a8;
+}
+
+.tc-flat-cloud {
+  z-index: 1;
+}
+
+.tc-flat-bean {
+  width: 13%;
+  max-width: 84px;
+  bottom: 7%;
+  background: #ff8fa3;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.tc-flat-shadow {
+  width: 14%;
+  max-width: 90px;
+  bottom: 5%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.tc-flat-bean.tc-hop {
+  animation: tc-hop 260ms ease-out;
+}
+
+.tc-flat-bean.tc-cheer {
+  animation: tc-cheer 520ms ease-out;
+}
+
+.tc-flat-bean.tc-stumble {
+  animation: tc-stumble 480ms ease-out;
+}
+
+@keyframes tc-hop {
+  0% { transform: translateX(-50%) scale(1.12, 0.84); }
+  45% { transform: translateX(-50%) translateY(-26px) scale(0.92, 1.14); }
+  100% { transform: translateX(-50%) scale(1, 1); }
+}
+
+@keyframes tc-cheer {
+  0% { transform: translateX(-50%) scale(1.16, 0.82); }
+  40% { transform: translateX(-50%) translateY(-38px) scale(0.9, 1.2) rotate(8deg); }
+  100% { transform: translateX(-50%) scale(1, 1) rotate(0deg); }
+}
+
+@keyframes tc-stumble {
+  0% { transform: translateX(-50%) rotate(0deg); }
+  30% { transform: translateX(-50%) rotate(-20deg) scale(1.1, 0.88); }
+  65% { transform: translateX(-50%) rotate(13deg); }
+  100% { transform: translateX(-50%) rotate(0deg) scale(1, 1); }
+}
+
+.tc-flat-burst {
+  position: absolute;
+  bottom: 20%;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.tc-flat-burst i {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  animation: tc-burst 900ms ease-out forwards;
+  animation-delay: var(--d, 0ms);
+}
+
+@keyframes tc-burst {
+  0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+  100% { transform: translate(var(--x, 0), -110px) rotate(var(--r, 180deg)); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tc-flat-bean.tc-hop,
+  .tc-flat-bean.tc-cheer,
+  .tc-flat-bean.tc-stumble,
+  .tc-flat-burst i {
+    animation: none;
+  }
+}
+
+/* --- small screens --------------------------------------------------------- */
+
+@media (max-width: 560px) {
+  .tc-stage {
+    height: min(42vh, 380px);
+  }
+
+  .tc-gate-label .tc-zh { font-size: 24px; }
+  .tc-gate-label .tc-gloss { font-size: 16px; max-width: 40vw; }
+  .tc-gate-label .tc-gloss.tc-zh-gloss { font-size: 13px; max-width: 30vw; }
+  .tc-gate-label .tc-py { font-size: 16px; }
+  .tc-replay { width: 100%; }
+}
+
+/* --- easy mode on a Chinese-definition set ---------------------------------
+   Three Chinese sentences cannot sit side by side across a 390 px stage: the
+   labels overlap as the gates scale up and the narrowest lane clamps
+   mid-clause (round 1, seen in the shot). So the gate carries a lane NUMBER
+   and the sentences are read, in full, from the legend under the stage. */
+
+.tc-gate-label .tc-lane-no {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.tc-legend {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 4px;
+}
+
+.tc-legend-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 52px;
+  padding: 10px 14px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+  color: var(--fg);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tc-legend-no {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+/* Full width, so the sentence never has to be cut. `break-all` is how Chinese
+   is set: any character may end a line. */
+.tc-legend-text {
+  flex: 1 1 auto;
+  font-size: 1rem;
+  line-height: 1.4;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+
+.tc-legend-row.tc-legend-here {
+  border-color: var(--brand);
+  box-shadow: inset 0 0 0 2px var(--brand);
+}
+
+.tc-legend-row.tc-legend-right {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+}
+
+@media (max-width: 420px) {
+  .tc-gate-label .tc-lane-no { font-size: 30px; }
+  .tc-legend-text { font-size: 0.95rem; }
+}
+
+/* A phone stage is min(42vh, 380px), and three legend rows are about 190 px
+   more than the page had left: rows 2 and 3 fell off the bottom of an 844 px
+   screen, so the sentences the gates now REFER to could not be read inside a
+   three-second gate (round 2, seen at 390 px). When the legend is up the stage
+   gives that height back. Only on a phone, and only while the rows are there:
+   every other set and every other mode keeps the tall stage. */
+@media (max-width: 560px) {
+  .tc-with-legend .tc-stage {
+    height: min(30vh, 260px);
+  }
+}
+

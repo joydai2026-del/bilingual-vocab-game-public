@@ -1,0 +1,23 @@
+{
+  "why": "Round 3 review, must-fix 2: two separate groups of five pairs with a heading between them. Only the longest run kept pair mode, so the second group was reparsed with pair detection off and 10 cards became 27. Every qualifying run keeps its own boundaries.",
+  "must": [
+    "科技创新",
+    "人工智能",
+    "就业",
+    "失业",
+    "市场",
+    "深度学习",
+    "解决问题",
+    "适应能力",
+    "推理能力",
+    "模拟"
+  ],
+  "mustNot": [
+    "找到工作",
+    "东西"
+  ],
+  "mode": "structured",
+  "minItems": 10,
+  "maxItems": 10
+}
+

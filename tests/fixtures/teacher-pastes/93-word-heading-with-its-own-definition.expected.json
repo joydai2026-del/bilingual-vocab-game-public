@@ -1,0 +1,9 @@
+{
+  "why": "Round 5 review, must-fix 2 (Codex round 4, P1): stripHeaders runs before the pair walk and deleted 单词 as a heading by its 词 suffix. The orphaned definition dropped the run below five pairs, so all five words and all five definitions were lost and the paste came back as nine segmenter fragments. A line with its own explanation under it is never paperwork.",
+  "must": ["苹果", "香蕉", "单词", "老师", "学生"],
+  "mustNot": ["水果", "知识", "语言"],
+  "mode": "structured",
+  "minItems": 5,
+  "maxItems": 5
+}
+

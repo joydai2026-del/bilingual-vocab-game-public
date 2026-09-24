@@ -1,0 +1,9 @@
+{
+  "why": "a two-field row is a glossary pair, not the header of a spreadsheet",
+  "note": "Fixture 50 is the all-titles version of this and was fixed with first-content-line AND content-below. A MIXED glossary satisfies both, so this paste lost TWO cards, not one: dropping 词 promoted 拼音 to the first row, where parse.ts's own first-row header filter took it as well, and only 苹果 survived. The discriminator added is the field COUNT: every header this rule exists for has four fields (fixtures 43 and 51), a glossary row has two. Stated as a decision, not a side effect: a genuine two-column header 生词\\t英文 is no longer recognised as one here. Measured, it still comes back as [\"英文\"], because parse.ts's own first-row filter takes the 生词 side, so the cost is at most one junk card. One junk card is recoverable; two words the teacher typed are not.",
+  "must": ["词", "拼音", "苹果"],
+  "mustNot": [],
+  "mode": "structured",
+  "maxItems": 3
+}
+

@@ -1,0 +1,8 @@
+{
+  "why": "Round 5 review, must-fix 1: five distinct speakers with one statement each, no repetition anywhere, passed as five vocabulary cards whose words were people's names. The DECIDED ADDENDUM answers it on what the B line SAYS: a definition is impersonal, a dialogue turn is conversational.",
+  "must": ["图书馆", "朋友", "新闻", "水果", "商店"],
+  "mustNot": ["小明", "小红", "老王", "李丽", "张伟"],
+  "mode": "free",
+  "minItems": 9
+}
+

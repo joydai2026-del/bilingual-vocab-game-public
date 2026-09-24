@@ -1,0 +1,8 @@
+{
+  "why": "the same Week column with the cell MERGED, so Excel wrote the label on the first row only: her three words are still the cards",
+  "note": "Round 13, from the round-12 panel's must-fix. Fixture 76 taught the column rule to key on the FIELD INDEX, but it asked for a marker on two or more rows, and a merged Excel cell writes one. So this paste answered 第1周=apple and threw 苹果 away: the exact failure 76 exists to prevent, in the shape most likely to come out of a real gradebook. The tell is the same one that carried 76: the SPACE-separated twin of this paste (`第1周 苹果 apple` / `香蕉 banana` / `老师 teacher`) already returned the three words. The rule now also counts a column as a marker column when it carries a marker on one row and is EMPTY on another row that has content, which is what a merged cell looks like from the outside. A single-row paste has no other row, so `第1周\\t苹果\\tapple` alone still keeps the marker exactly as round 11 locked it.",
+  "must": ["苹果", "香蕉", "老师"],
+  "mustNot": ["第1周", "第", "周"],
+  "maxItems": 3
+}
+

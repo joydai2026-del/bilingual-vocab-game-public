@@ -1,0 +1,2874 @@
+{
+ "01-chinese-commas.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "02-pause-marks.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "03-run-no-separators.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "segment"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "segment"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "segment"
+   },
+   {
+    "zh": "游泳",
+    "pinyin": "yóu yǒng",
+    "en": "swimming",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "04-paragraph.txt": {
+  "items": [
+   {
+    "zh": "水果",
+    "pinyin": "shuǐ guǒ",
+    "en": "fruit",
+    "source": "segment"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "好吃",
+    "pinyin": "hǎo chī",
+    "en": "tasty",
+    "source": "segment"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "segment"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "segment"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "05-sentence-per-line.txt": {
+  "items": [
+   {
+    "zh": "水果",
+    "pinyin": "shuǐ guǒ",
+    "en": "fruit",
+    "source": "segment"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "好吃",
+    "pinyin": "hǎo chī",
+    "en": "tasty",
+    "source": "segment"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "segment"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "segment"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "06-wechat-with-instructions.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "dict"
+   },
+   {
+    "zh": "游泳",
+    "pinyin": "yóu yǒng",
+    "en": "swimming",
+    "source": "dict"
+   },
+   {
+    "zh": "高兴",
+    "pinyin": "gāo xìng",
+    "en": "happy",
+    "source": "dict"
+   },
+   {
+    "zh": "漂亮",
+    "pinyin": "piào liang",
+    "en": "pretty",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "07-quizlet-export-tab.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "08-quizlet-export-comma.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "09-quizlet-alternating-lines.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "10-word-table-paste.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "11-google-sheets-csv.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library, reading room",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "12-pipe-separated.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "13-hsk-list.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píngguǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎoshī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎobù",
+    "en": "to run",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "14-tone-numbers.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "ping2guo3",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiang1jiao1",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lao3shi1",
+    "en": "teacher",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "15-pinyin-in-brackets.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "16-english-first.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "17-numbering-dot.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "18-numbering-ideographic.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "19-numbering-circled.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "20-numbering-paren.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "21-slash-separator.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "22-middot-separator.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "23-semicolon-list.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "24-traditional.txt": {
+  "items": [
+   {
+    "zh": "蘋果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老師",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "學生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   },
+   {
+    "zh": "圖書館",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "25-mixed-scripts.txt": {
+  "items": [
+   {
+    "zh": "蘋果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "學生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "26-textbook-passage.txt": {
+  "items": [
+   {
+    "zh": "学校",
+    "pinyin": "xué xiào",
+    "en": "school",
+    "source": "segment"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "segment"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "segment"
+   },
+   {
+    "zh": "每天",
+    "pinyin": "měi tiān",
+    "en": "every day",
+    "source": "segment"
+   },
+   {
+    "zh": "看书",
+    "pinyin": "kàn shū",
+    "en": "to read",
+    "source": "segment"
+   },
+   {
+    "zh": "下午",
+    "pinyin": "xià wǔ",
+    "en": "afternoon",
+    "source": "segment"
+   },
+   {
+    "zh": "喜欢",
+    "pinyin": "xǐ huan",
+    "en": "to like",
+    "source": "segment"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "segment"
+   },
+   {
+    "zh": "游泳",
+    "pinyin": "yóu yǒng",
+    "en": "swimming",
+    "source": "segment"
+   },
+   {
+    "zh": "晚上",
+    "pinyin": "wǎn shang",
+    "en": "evening",
+    "source": "segment"
+   },
+   {
+    "zh": "在家",
+    "pinyin": "zài jiā",
+    "en": "to be at home",
+    "source": "segment"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "segment"
+   },
+   {
+    "zh": "觉得",
+    "pinyin": "jué de",
+    "en": "to think that",
+    "source": "segment"
+   },
+   {
+    "zh": "中文",
+    "pinyin": "Zhōng wén",
+    "en": "Chinese language",
+    "source": "segment"
+   },
+   {
+    "zh": "有意思",
+    "pinyin": "yǒu yì si",
+    "en": "interesting",
+    "source": "segment"
+   },
+   {
+    "zh": "高兴",
+    "pinyin": "gāo xìng",
+    "en": "happy",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "27-ocr-stray-characters.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "pair"
+   }
+  ],
+  "skipped": [
+   "生词表",
+   "|"
+  ],
+  "mode": "structured"
+ },
+ "28-duplicates.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "29-three-words.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "30-two-column-flattened.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [
+   "apple",
+   "banana",
+   "teacher",
+   "student"
+  ],
+  "mode": "free"
+ },
+ "31-measure-word-phrases.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "书",
+    "pinyin": "shū",
+    "en": "book",
+    "source": "segment"
+   },
+   {
+    "zh": "猫",
+    "pinyin": "māo",
+    "en": "cat",
+    "source": "segment"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "32-verbs-with-le.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "电视",
+    "pinyin": "diàn shì",
+    "en": "television",
+    "source": "segment"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "segment"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "33-headers-and-notes.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   }
+  ],
+  "skipped": [
+   "Unit 3 Vocabulary",
+   "Name:",
+   "Homework: page 12"
+  ],
+  "mode": "free"
+ },
+ "34-email-with-signature.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   }
+  ],
+  "skipped": [
+   "Here are this week's words:",
+   "Best,",
+   "Ms. Chen",
+   "Sent from my iPhone",
+   "Hi all,"
+  ],
+  "mode": "structured"
+ },
+ "35-mixed-shapes.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "pair"
+   },
+   {
+    "zh": "游泳",
+    "pinyin": "yóu yǒng",
+    "en": "swimming",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "36-sixty-words.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   },
+   {
+    "zh": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "en": "library",
+    "source": "dict"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "dict"
+   },
+   {
+    "zh": "游泳",
+    "pinyin": "yóu yǒng",
+    "en": "swimming",
+    "source": "dict"
+   },
+   {
+    "zh": "高兴",
+    "pinyin": "gāo xìng",
+    "en": "happy",
+    "source": "dict"
+   },
+   {
+    "zh": "漂亮",
+    "pinyin": "piào liang",
+    "en": "pretty",
+    "source": "dict"
+   },
+   {
+    "zh": "水果",
+    "pinyin": "shuǐ guǒ",
+    "en": "fruit",
+    "source": "dict"
+   },
+   {
+    "zh": "学校",
+    "pinyin": "xué xiào",
+    "en": "school",
+    "source": "dict"
+   },
+   {
+    "zh": "医院",
+    "pinyin": "yī yuàn",
+    "en": "hospital",
+    "source": "dict"
+   },
+   {
+    "zh": "商店",
+    "pinyin": "shāng diàn",
+    "en": "store",
+    "source": "dict"
+   },
+   {
+    "zh": "公园",
+    "pinyin": "gōng yuán",
+    "en": "park",
+    "source": "dict"
+   },
+   {
+    "zh": "火车",
+    "pinyin": "huǒ chē",
+    "en": "train",
+    "source": "dict"
+   },
+   {
+    "zh": "飞机",
+    "pinyin": "fēi jī",
+    "en": "airplane",
+    "source": "dict"
+   },
+   {
+    "zh": "汽车",
+    "pinyin": "qì chē",
+    "en": "car",
+    "source": "dict"
+   },
+   {
+    "zh": "自行车",
+    "pinyin": "zì xíng chē",
+    "en": "bicycle",
+    "source": "dict"
+   },
+   {
+    "zh": "电视",
+    "pinyin": "diàn shì",
+    "en": "television",
+    "source": "dict"
+   },
+   {
+    "zh": "电脑",
+    "pinyin": "diàn nǎo",
+    "en": "computer",
+    "source": "dict"
+   },
+   {
+    "zh": "手机",
+    "pinyin": "shǒu jī",
+    "en": "cell phone",
+    "source": "dict"
+   },
+   {
+    "zh": "桌子",
+    "pinyin": "zhuō zi",
+    "en": "table",
+    "source": "dict"
+   },
+   {
+    "zh": "椅子",
+    "pinyin": "yǐ zi",
+    "en": "chair",
+    "source": "dict"
+   },
+   {
+    "zh": "窗户",
+    "pinyin": "chuāng hu",
+    "en": "window",
+    "source": "dict"
+   },
+   {
+    "zh": "房间",
+    "pinyin": "fáng jiān",
+    "en": "room",
+    "source": "dict"
+   },
+   {
+    "zh": "厨房",
+    "pinyin": "chú fáng",
+    "en": "kitchen",
+    "source": "dict"
+   },
+   {
+    "zh": "花园",
+    "pinyin": "huā yuán",
+    "en": "garden",
+    "source": "dict"
+   },
+   {
+    "zh": "衣服",
+    "pinyin": "yī fu",
+    "en": "clothes",
+    "source": "dict"
+   },
+   {
+    "zh": "鞋子",
+    "pinyin": "xié zi",
+    "en": "shoe",
+    "source": "dict"
+   },
+   {
+    "zh": "帽子",
+    "pinyin": "mào zi",
+    "en": "hat",
+    "source": "dict"
+   },
+   {
+    "zh": "面包",
+    "pinyin": "miàn bāo",
+    "en": "bread",
+    "source": "dict"
+   },
+   {
+    "zh": "米饭",
+    "pinyin": "mǐ fàn",
+    "en": "rice",
+    "source": "dict"
+   },
+   {
+    "zh": "鸡蛋",
+    "pinyin": "jī dàn",
+    "en": "egg",
+    "source": "dict"
+   },
+   {
+    "zh": "牛奶",
+    "pinyin": "niú nǎi",
+    "en": "cow's milk",
+    "source": "dict"
+   },
+   {
+    "zh": "咖啡",
+    "pinyin": "kā fēi",
+    "en": "coffee",
+    "source": "dict"
+   },
+   {
+    "zh": "西瓜",
+    "pinyin": "xī guā",
+    "en": "watermelon",
+    "source": "dict"
+   },
+   {
+    "zh": "葡萄",
+    "pinyin": "pú tao",
+    "en": "grape",
+    "source": "dict"
+   },
+   {
+    "zh": "草莓",
+    "pinyin": "cǎo méi",
+    "en": "strawberry",
+    "source": "dict"
+   },
+   {
+    "zh": "蔬菜",
+    "pinyin": "shū cài",
+    "en": "vegetables",
+    "source": "dict"
+   },
+   {
+    "zh": "番茄",
+    "pinyin": "fān qié",
+    "en": "tomato",
+    "source": "dict"
+   },
+   {
+    "zh": "医生",
+    "pinyin": "yī shēng",
+    "en": "doctor",
+    "source": "dict"
+   },
+   {
+    "zh": "护士",
+    "pinyin": "hù shi",
+    "en": "nurse",
+    "source": "dict"
+   },
+   {
+    "zh": "工人",
+    "pinyin": "gōng rén",
+    "en": "worker",
+    "source": "dict"
+   },
+   {
+    "zh": "农民",
+    "pinyin": "nóng mín",
+    "en": "peasant",
+    "source": "dict"
+   },
+   {
+    "zh": "警察",
+    "pinyin": "jǐng chá",
+    "en": "police",
+    "source": "dict"
+   },
+   {
+    "zh": "司机",
+    "pinyin": "sī jī",
+    "en": "chauffeur",
+    "source": "dict"
+   },
+   {
+    "zh": "厨师",
+    "pinyin": "chú shī",
+    "en": "cook",
+    "source": "dict"
+   },
+   {
+    "zh": "演员",
+    "pinyin": "yǎn yuán",
+    "en": "actor",
+    "source": "dict"
+   },
+   {
+    "zh": "歌手",
+    "pinyin": "gē shǒu",
+    "en": "singer",
+    "source": "dict"
+   },
+   {
+    "zh": "画家",
+    "pinyin": "huà jiā",
+    "en": "painter",
+    "source": "dict"
+   },
+   {
+    "zh": "春天",
+    "pinyin": "chūn tiān",
+    "en": "spring",
+    "source": "dict"
+   },
+   {
+    "zh": "夏天",
+    "pinyin": "xià tiān",
+    "en": "summer",
+    "source": "dict"
+   },
+   {
+    "zh": "秋天",
+    "pinyin": "qiū tiān",
+    "en": "autumn",
+    "source": "dict"
+   },
+   {
+    "zh": "冬天",
+    "pinyin": "dōng tiān",
+    "en": "winter",
+    "source": "dict"
+   },
+   {
+    "zh": "早上",
+    "pinyin": "zǎo shang",
+    "en": "early morning",
+    "source": "dict"
+   },
+   {
+    "zh": "中午",
+    "pinyin": "zhōng wǔ",
+    "en": "noon",
+    "source": "dict"
+   },
+   {
+    "zh": "下午",
+    "pinyin": "xià wǔ",
+    "en": "afternoon",
+    "source": "dict"
+   },
+   {
+    "zh": "晚上",
+    "pinyin": "wǎn shang",
+    "en": "evening",
+    "source": "dict"
+   },
+   {
+    "zh": "星期",
+    "pinyin": "xīng qī",
+    "en": "week",
+    "source": "dict"
+   },
+   {
+    "zh": "月亮",
+    "pinyin": "yuè liang",
+    "en": "the moon",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "37-signature-word-mid-list.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "pair"
+   }
+  ],
+  "skipped": [
+   "第一课生词",
+   "Thanks"
+  ],
+  "mode": "structured"
+ },
+ "38-chinese-heading.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "dict"
+   },
+   {
+    "zh": "跑步",
+    "pinyin": "pǎo bù",
+    "en": "to run",
+    "source": "dict"
+   }
+  ],
+  "skipped": [
+   "第一课生词",
+   "生词表",
+   "第三单元词汇"
+  ],
+  "mode": "free"
+ },
+ "39-row-of-words-already-seen.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "40-beginner-run-with-question-words.txt": {
+  "items": [
+   {
+    "zh": "你好",
+    "pinyin": "nǐ hǎo",
+    "en": "hello",
+    "source": "segment"
+   },
+   {
+    "zh": "谢谢",
+    "pinyin": "xiè xie",
+    "en": "thanks",
+    "source": "segment"
+   },
+   {
+    "zh": "再见",
+    "pinyin": "zài jiàn",
+    "en": "goodbye",
+    "source": "segment"
+   },
+   {
+    "zh": "什么",
+    "pinyin": "shén me",
+    "en": "what",
+    "source": "segment"
+   },
+   {
+    "zh": "为什么",
+    "pinyin": "wèi shén me",
+    "en": "why",
+    "source": "segment"
+   },
+   {
+    "zh": "还有",
+    "pinyin": "hái yǒu",
+    "en": "in addition",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "41-grammar-words-as-a-list.txt": {
+  "items": [
+   {
+    "zh": "我",
+    "pinyin": "wǒ",
+    "en": "I",
+    "source": "dict"
+   },
+   {
+    "zh": "你",
+    "pinyin": "nǐ",
+    "en": "you",
+    "source": "dict"
+   },
+   {
+    "zh": "他",
+    "pinyin": "tā",
+    "en": "he",
+    "source": "dict"
+   },
+   {
+    "zh": "我们",
+    "pinyin": "wǒ men",
+    "en": "we",
+    "source": "dict"
+   },
+   {
+    "zh": "什么",
+    "pinyin": "shén me",
+    "en": "what",
+    "source": "dict"
+   },
+   {
+    "zh": "哪里",
+    "pinyin": "nǎ lǐ",
+    "en": "where",
+    "source": "dict"
+   },
+   {
+    "zh": "因为",
+    "pinyin": "yīn wèi",
+    "en": "because",
+    "source": "dict"
+   },
+   {
+    "zh": "所以",
+    "pinyin": "suǒ yǐ",
+    "en": "therefore",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "42-lesson-header-with-date.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "葡萄",
+    "pinyin": "pú tao",
+    "en": "grape",
+    "source": "dict"
+   },
+   {
+    "zh": "西瓜",
+    "pinyin": "xī guā",
+    "en": "watermelon",
+    "source": "dict"
+   }
+  ],
+  "skipped": [
+   "第三课"
+  ],
+  "mode": "free"
+ },
+ "43-spreadsheet-header-row.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píngguǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "葡萄",
+    "pinyin": "pútáo",
+    "en": "grape",
+    "source": "pair"
+   }
+  ],
+  "skipped": [
+   "序号\t生词\t拼音\t英文"
+  ],
+  "mode": "structured"
+ },
+ "44-word-then-example-sentence.txt": {
+  "items": [
+   {
+    "zh": "喜欢",
+    "pinyin": "xǐ huan",
+    "en": "to like",
+    "source": "dict"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "学习",
+    "pinyin": "xué xí",
+    "en": "to learn",
+    "source": "dict"
+   },
+   {
+    "zh": "每天",
+    "pinyin": "měi tiān",
+    "en": "every day",
+    "source": "segment"
+   },
+   {
+    "zh": "中文",
+    "pinyin": "Zhōng wén",
+    "en": "Chinese language",
+    "source": "segment"
+   },
+   {
+    "zh": "帮助",
+    "pinyin": "bāng zhù",
+    "en": "assistance",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "45-measure-word-head-noun.txt": {
+  "items": [
+   {
+    "zh": "书",
+    "pinyin": "shū",
+    "en": "book",
+    "source": "segment"
+   },
+   {
+    "zh": "笔",
+    "pinyin": "bǐ",
+    "en": "writing brush",
+    "source": "segment"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "segment"
+   },
+   {
+    "zh": "猫",
+    "pinyin": "māo",
+    "en": "cat",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "46-bracketed-chinese-note.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "47-simplified-traditional-pair.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "学习",
+    "pinyin": "xué xí",
+    "en": "to learn",
+    "source": "dict"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "48-months-with-numerals.txt": {
+  "items": [
+   {
+    "zh": "1月",
+    "pinyin": "yī yuè",
+    "en": "January",
+    "source": "segment"
+   },
+   {
+    "zh": "2月",
+    "pinyin": "èr yuè",
+    "en": "February",
+    "source": "segment"
+   },
+   {
+    "zh": "3月",
+    "pinyin": "sān yuè",
+    "en": "March",
+    "source": "segment"
+   },
+   {
+    "zh": "4月",
+    "pinyin": "sì yuè",
+    "en": "April",
+    "source": "segment"
+   },
+   {
+    "zh": "5月",
+    "pinyin": "wǔ yuè",
+    "en": "May",
+    "source": "segment"
+   },
+   {
+    "zh": "6月",
+    "pinyin": "liù yuè",
+    "en": "June",
+    "source": "segment"
+   },
+   {
+    "zh": "7月",
+    "pinyin": "qī yuè",
+    "en": "July",
+    "source": "segment"
+   },
+   {
+    "zh": "8月",
+    "pinyin": "bā yuè",
+    "en": "August",
+    "source": "segment"
+   },
+   {
+    "zh": "9月",
+    "pinyin": "jiǔ yuè",
+    "en": "September",
+    "source": "segment"
+   },
+   {
+    "zh": "10月",
+    "pinyin": "shí yuè",
+    "en": "October",
+    "source": "segment"
+   },
+   {
+    "zh": "11月",
+    "pinyin": "shí yī yuè",
+    "en": "November",
+    "source": "segment"
+   },
+   {
+    "zh": "12月",
+    "pinyin": "shí èr yuè",
+    "en": "December",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "49-numbered-words-that-start-with-a-date-character.txt": {
+  "items": [
+   {
+    "zh": "年级",
+    "pinyin": "nián jí",
+    "en": "grade",
+    "source": "dict"
+   },
+   {
+    "zh": "日元",
+    "pinyin": "rì yuán",
+    "en": "yen",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "50-two-column-glossary-of-title-words.txt": {
+  "items": [
+   {
+    "zh": "词",
+    "pinyin": "cí",
+    "en": "word",
+    "source": "pair"
+   },
+   {
+    "zh": "拼音",
+    "pinyin": "pīn yīn",
+    "en": "pinyin",
+    "source": "pair"
+   },
+   {
+    "zh": "意思",
+    "pinyin": "yì si",
+    "en": "meaning",
+    "source": "pair"
+   },
+   {
+    "zh": "例句",
+    "pinyin": "lì jù",
+    "en": "example",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "51-titled-table-with-spaces.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píngguǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "葡萄",
+    "pinyin": "pútáo",
+    "en": "grape",
+    "source": "pair"
+   }
+  ],
+  "skipped": [
+   "序号 生词 拼音 英文"
+  ],
+  "mode": "structured"
+ },
+ "52-notice-then-word-list.txt": {
+  "items": [
+   {
+    "zh": "明天",
+    "pinyin": "míng tiān",
+    "en": "tomorrow",
+    "source": "segment"
+   },
+   {
+    "zh": "考试",
+    "pinyin": "kǎo shì",
+    "en": "exam",
+    "source": "segment"
+   },
+   {
+    "zh": "学习",
+    "pinyin": "xué xí",
+    "en": "to learn",
+    "source": "dict"
+   },
+   {
+    "zh": "练习",
+    "pinyin": "liàn xí",
+    "en": "exercise",
+    "source": "dict"
+   },
+   {
+    "zh": "复习",
+    "pinyin": "fù xí",
+    "en": "revision",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "53-bare-list-of-study-words.txt": {
+  "items": [
+   {
+    "zh": "学习",
+    "pinyin": "xué xí",
+    "en": "to learn",
+    "source": "dict"
+   },
+   {
+    "zh": "练习",
+    "pinyin": "liàn xí",
+    "en": "exercise",
+    "source": "dict"
+   },
+   {
+    "zh": "复习",
+    "pinyin": "fù xí",
+    "en": "revision",
+    "source": "dict"
+   },
+   {
+    "zh": "考试",
+    "pinyin": "kǎo shì",
+    "en": "exam",
+    "source": "dict"
+   },
+   {
+    "zh": "作业",
+    "pinyin": "zuò yè",
+    "en": "work",
+    "source": "dict"
+   },
+   {
+    "zh": "上课",
+    "pinyin": "shàng kè",
+    "en": "to go to class",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "54-wechat-instruction-then-list.txt": {
+  "items": [
+   {
+    "zh": "这些",
+    "pinyin": "zhè xiē",
+    "en": "these",
+    "source": "segment"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "葡萄",
+    "pinyin": "pú tao",
+    "en": "grape",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "55-numbered-single-character-lesson.txt": {
+  "items": [
+   {
+    "zh": "日",
+    "pinyin": "rì",
+    "en": "sun",
+    "source": "dict"
+   },
+   {
+    "zh": "月",
+    "pinyin": "yuè",
+    "en": "moon",
+    "source": "dict"
+   },
+   {
+    "zh": "水",
+    "pinyin": "shuǐ",
+    "en": "water",
+    "source": "dict"
+   },
+   {
+    "zh": "火",
+    "pinyin": "huǒ",
+    "en": "fire",
+    "source": "dict"
+   },
+   {
+    "zh": "木",
+    "pinyin": "mù",
+    "en": "tree",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "56-greetings-lesson.txt": {
+  "items": [
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   },
+   {
+    "zh": "你好",
+    "pinyin": "nǐ hǎo",
+    "en": "hello",
+    "source": "dict"
+   },
+   {
+    "zh": "谢谢",
+    "pinyin": "xiè xie",
+    "en": "thanks",
+    "source": "dict"
+   },
+   {
+    "zh": "再见",
+    "pinyin": "zài jiàn",
+    "en": "goodbye",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "57-list-then-sign-off.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   },
+   {
+    "zh": "葡萄",
+    "pinyin": "pú tao",
+    "en": "grape",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "58-title-words-over-real-vocabulary.txt": {
+  "items": [
+   {
+    "zh": "词",
+    "pinyin": "cí",
+    "en": "word",
+    "source": "pair"
+   },
+   {
+    "zh": "拼音",
+    "pinyin": "pīn yīn",
+    "en": "pinyin",
+    "source": "pair"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "59-numbered-lesson-header-with-months.txt": {
+  "items": [
+   {
+    "zh": "1月",
+    "pinyin": "yī yuè",
+    "en": "January",
+    "source": "segment"
+   },
+   {
+    "zh": "2月",
+    "pinyin": "èr yuè",
+    "en": "February",
+    "source": "segment"
+   },
+   {
+    "zh": "3月",
+    "pinyin": "sān yuè",
+    "en": "March",
+    "source": "segment"
+   }
+  ],
+  "skipped": [
+   "第1课:"
+  ],
+  "mode": "free"
+ },
+ "60-greetings-separated-by-dun.txt": {
+  "items": [
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "segment"
+   },
+   {
+    "zh": "你好",
+    "pinyin": "nǐ hǎo",
+    "en": "hello",
+    "source": "dict"
+   },
+   {
+    "zh": "谢谢",
+    "pinyin": "xiè xie",
+    "en": "thanks",
+    "source": "dict"
+   },
+   {
+    "zh": "再见",
+    "pinyin": "zài jiàn",
+    "en": "goodbye",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "61-months-and-days-on-one-line.txt": {
+  "items": [
+   {
+    "zh": "1月",
+    "pinyin": "yī yuè",
+    "en": "January",
+    "source": "segment"
+   },
+   {
+    "zh": "5日",
+    "pinyin": "wǔ rì",
+    "en": "the 5th",
+    "source": "segment"
+   },
+   {
+    "zh": "9号",
+    "pinyin": "jiǔ hào",
+    "en": "the 9th",
+    "source": "segment"
+   },
+   {
+    "zh": "2月",
+    "pinyin": "èr yuè",
+    "en": "February",
+    "source": "segment"
+   },
+   {
+    "zh": "21日",
+    "pinyin": "èr shí yī rì",
+    "en": "the 21st",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "62-day-glossary-tab-separated.txt": {
+  "items": [
+   {
+    "zh": "第一天",
+    "pinyin": "",
+    "en": "the first day",
+    "source": "pair"
+   },
+   {
+    "zh": "第二天",
+    "pinyin": "dì èr tiān",
+    "en": "the second day",
+    "source": "pair"
+   },
+   {
+    "zh": "第三章",
+    "pinyin": "",
+    "en": "chapter three",
+    "source": "pair"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "63-particles-lesson-under-a-heading.txt": {
+  "items": [
+   {
+    "zh": "的",
+    "pinyin": "de",
+    "en": "of",
+    "source": "dict"
+   },
+   {
+    "zh": "了",
+    "pinyin": "liǎo",
+    "en": "completely",
+    "source": "dict"
+   },
+   {
+    "zh": "过",
+    "pinyin": "guò",
+    "en": "to cross",
+    "source": "dict"
+   },
+   {
+    "zh": "吗",
+    "pinyin": "má",
+    "en": "what",
+    "source": "dict"
+   },
+   {
+    "zh": "呢",
+    "pinyin": "ne",
+    "en": "indicating that a state or situation",
+    "source": "dict"
+   }
+  ],
+  "skipped": [
+   "第 1课"
+  ],
+  "mode": "free"
+ },
+ "64-day-glossary-space-separated.txt": {
+  "items": [
+   {
+    "zh": "第一天",
+    "pinyin": "",
+    "en": "the first day",
+    "source": "pair"
+   },
+   {
+    "zh": "第二天",
+    "pinyin": "dì èr tiān",
+    "en": "the second day",
+    "source": "pair"
+   },
+   {
+    "zh": "第三章",
+    "pinyin": "",
+    "en": "chapter three",
+    "source": "pair"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "65-mixed-list-with-a-space-glossed-unit-word.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "第一天",
+    "pinyin": "",
+    "en": "the first day",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "第三章",
+    "pinyin": "",
+    "en": "chapter three",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "66-english-titled-lesson-index.txt": {
+  "items": [
+   {
+    "zh": "第1课",
+    "pinyin": "",
+    "en": "Lesson one",
+    "source": "pair"
+   },
+   {
+    "zh": "第2课",
+    "pinyin": "",
+    "en": "Lesson two",
+    "source": "pair"
+   },
+   {
+    "zh": "第3课",
+    "pinyin": "",
+    "en": "Lesson three",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "67-date-marker-over-a-unit-list.txt": {
+  "items": [
+   {
+    "zh": "年",
+    "pinyin": "nián",
+    "en": "grain",
+    "source": "dict"
+   },
+   {
+    "zh": "月",
+    "pinyin": "yuè",
+    "en": "moon",
+    "source": "dict"
+   },
+   {
+    "zh": "日",
+    "pinyin": "rì",
+    "en": "sun",
+    "source": "dict"
+   },
+   {
+    "zh": "号",
+    "pinyin": "hào",
+    "en": "bugle",
+    "source": "dict"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "68-bare-lesson-marker-run.txt": {
+  "items": [],
+  "skipped": [
+   "第1课",
+   "第2课",
+   "第3课",
+   "第4课"
+  ],
+  "mode": "free",
+  "paperworkOnly": true
+ },
+ "69-arabic-numeral-day-glossary.txt": {
+  "items": [
+   {
+    "zh": "第1天",
+    "pinyin": "",
+    "en": "the first day",
+    "source": "pair"
+   },
+   {
+    "zh": "第2天",
+    "pinyin": "",
+    "en": "the second day",
+    "source": "pair"
+   },
+   {
+    "zh": "第3天",
+    "pinyin": "",
+    "en": "the third day",
+    "source": "pair"
+   },
+   {
+    "zh": "第4天",
+    "pinyin": "",
+    "en": "the fourth day",
+    "source": "pair"
+   },
+   {
+    "zh": "第5天",
+    "pinyin": "",
+    "en": "the fifth day",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "70-mixed-marker-paste.txt": {
+  "items": [
+   {
+    "zh": "第1课",
+    "pinyin": "",
+    "en": "Lesson one",
+    "source": "pair"
+   },
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "dict"
+   }
+  ],
+  "skipped": [
+   "第2课"
+  ],
+  "mode": "free"
+ },
+ "71-bare-day-marker-run.txt": {
+  "items": [
+   {
+    "zh": "第一天",
+    "pinyin": "dì yī tiān",
+    "en": "day 1",
+    "source": "segment"
+   },
+   {
+    "zh": "第二天",
+    "pinyin": "dì èr tiān",
+    "en": "day 2",
+    "source": "segment"
+   },
+   {
+    "zh": "第三天",
+    "pinyin": "dì sān tiān",
+    "en": "day 3",
+    "source": "segment"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "72-lesson-column-beside-the-word.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   },
+   {
+    "zh": "学生",
+    "pinyin": "xué sheng",
+    "en": "student",
+    "source": "pair"
+   },
+   {
+    "zh": "你好",
+    "pinyin": "nǐ hǎo",
+    "en": "hello",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "73-marker-run-with-one-real-word.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "dict"
+   }
+  ],
+  "skipped": [
+   "第1课",
+   "第2课"
+  ],
+  "mode": "free"
+ },
+ "74-marker-and-gloss-on-alternating-lines.txt": {
+  "items": [
+   {
+    "zh": "第1课",
+    "pinyin": "",
+    "en": "Lesson one",
+    "source": "pair"
+   },
+   {
+    "zh": "第2课",
+    "pinyin": "",
+    "en": "Lesson two",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "75-day-marker-over-her-own-gloss.txt": {
+  "items": [
+   {
+    "zh": "第1天",
+    "pinyin": "",
+    "en": "the first day",
+    "source": "pair"
+   },
+   {
+    "zh": "第2天",
+    "pinyin": "",
+    "en": "the second day",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "free"
+ },
+ "76-week-column-beside-the-word.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ },
+ "77-merged-week-cell.txt": {
+  "items": [
+   {
+    "zh": "苹果",
+    "pinyin": "píng guǒ",
+    "en": "apple",
+    "source": "pair"
+   },
+   {
+    "zh": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "en": "banana",
+    "source": "pair"
+   },
+   {
+    "zh": "老师",
+    "pinyin": "lǎo shī",
+    "en": "teacher",
+    "source": "pair"
+   }
+  ],
+  "skipped": [],
+  "mode": "structured"
+ }
+}
+

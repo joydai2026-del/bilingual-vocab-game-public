@@ -1,0 +1,21 @@
+{
+  "why": "A WeChat message: a colon, the list, and an instruction on the end.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生",
+    "跑步",
+    "游泳",
+    "高兴",
+    "漂亮"
+  ],
+  "mustNot": [
+    "这周",
+    "生词",
+    "复习",
+    "请"
+  ],
+  "mode": "free"
+}
+

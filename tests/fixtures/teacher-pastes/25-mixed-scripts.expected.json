@@ -1,0 +1,12 @@
+{
+  "why": "A class that uses both scripts, mixed in one paste.",
+  "must": [
+    "蘋果",
+    "香蕉",
+    "老师",
+    "學生"
+  ],
+  "mustNot": [],
+  "mode": "structured"
+}
+

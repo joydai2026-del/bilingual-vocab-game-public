@@ -1,0 +1,16 @@
+{
+  "why": "the Quizlet alternating-lines export with a lesson number as the term: term on one line, meaning on the next, which is the same paste as fixture 66 with the space typed as a newline",
+  "note": "Round 11, from the round-10 panel's F1. This came back with NO cards at all. readBareMarkerLines answers every line that is nothing but whole markers before any other reader sees the paste, so both marker lines left as paperwork, and the two English lines were then skipped for having no Chinese in them: four typed lines, zero cards, and the could-not-read screen. Fixture 09 is the same alternating shape with ordinary words and has always worked; the marker is what broke it. A marker-only line with a Latin line directly under it is a PAIR, and round 7c already settled what a pair is worth: what she typed as a pair stays a pair. The card is her marker with her gloss, and the source is `pair`, exactly as it is when she types the two on one line.",
+  "must": [
+    "第1课",
+    "第2课"
+  ],
+  "mustNot": [
+    "第",
+    "课",
+    "第1",
+    "第2"
+  ],
+  "maxItems": 2
+}
+

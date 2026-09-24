@@ -1,0 +1,8 @@
+{
+  "why": "Round 1 review, Codex must-fix 3: one paste holding two anchored Quizlet sets, and a trailing anchor with nothing under it. Extraction used to start at the LAST 'Terms in this set (N)', which deleted the first set outright and, with the trailing anchor, emptied the paste. It now starts at the FIRST anchor and drops the later anchor lines as chrome, so every anchored section survives and the collector dedupes what the page repeats.",
+  "must": ["科技创新", "人工智能", "就业", "失业", "市场", "环境", "污染", "资源", "节约", "垃圾"],
+  "mustNot": ["中国古代哲学1", "Preview", "Teacher"],
+  "mode": "structured",
+  "maxItems": 10
+}
+

@@ -1,0 +1,12 @@
+{
+  "why": "The same word listed twice. A repeat would break Memory Match pairing.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [],
+  "mode": "free"
+}
+

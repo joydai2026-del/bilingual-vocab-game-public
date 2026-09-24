@@ -1,0 +1,8 @@
+{
+  "why": "Round 1 review, Codex must-fix 1: five term / definition pairs with an ordinary three-column table under them. Pair mode used to return the five terms and throw the rest of the paste away with skipped: [], so 苹果 香蕉 老师 学生 vanished with nothing on the set page to say why. Pair mode now consumes only the lines it paired; everything else goes back down the normal readers.",
+  "must": ["科技创新", "人工智能", "就业", "失业", "市场", "苹果", "香蕉", "老师", "学生"],
+  "mustNot": ["找到工作", "东西", "地方"],
+  "mode": "structured",
+  "maxItems": 9
+}
+

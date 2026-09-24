@@ -1,0 +1,7 @@
+{
+  "why": "Round 1 review, Codex must-fix 2: five couplets. A five-character line answered by another five-character line ending in 。 satisfied the old 'has Chinese and runs past 8 characters' test, so 床前明月光 became a card whose meaning was 疑是地上霜。 The length ratio (a definition runs at least half again its term's length) is what refuses it: verse answers its own line one for one.",
+  "must": ["明月", "故乡", "风雨"],
+  "mustNot": ["床前明月光", "疑是地上霜", "举头望明月"],
+  "mode": "free"
+}
+

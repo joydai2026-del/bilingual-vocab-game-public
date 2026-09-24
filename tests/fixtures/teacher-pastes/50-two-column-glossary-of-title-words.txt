@@ -1,0 +1,5 @@
+词	word
+拼音	pinyin
+意思	meaning
+例句	example
+

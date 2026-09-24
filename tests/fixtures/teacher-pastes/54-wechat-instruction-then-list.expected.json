@@ -1,0 +1,8 @@
+{
+  "why": "the same study words that ARE cards on a bare list are the instruction here, and the sign-off is not a card either",
+  "note": "The other half of fixture 53. Keeping 学习 练习 复习 on a bare list must not put 复习 back into 请复习, so an ordinary paperwork word is still dropped when THIS occurrence is being used as an instruction: 请 straight in front of it, or a colon straight after it. 生词 is a list header and is dropped in every mode. 谢谢老师 on the end of a WeChat message is a sign-off, matched as a whole run, so neither half of it is a card. 这些 is deliberately NOT in mustNot: it is a piece the segmenter cut out of 请复习这些生词, and the only rule that would drop it on a list is one that also drops 什么 and 还有 out of `你好谢谢再见什么为什么还有` (fixture 40). The two cannot both be had; fixture 40 is JJ's own paste and wins.",
+  "must": ["苹果", "香蕉", "葡萄"],
+  "mustNot": ["复习", "生词", "谢谢", "老师", "请"],
+  "mode": "free"
+}
+

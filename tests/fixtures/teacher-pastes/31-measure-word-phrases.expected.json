@@ -1,0 +1,13 @@
+{
+  "why": "Measure-word phrases. The noun is the word; the counter in front of it is not.",
+  "must": [
+    "苹果",
+    "老师"
+  ],
+  "mustNot": [
+    "一个",
+    "一个苹果",
+    "两个"
+  ]
+}
+

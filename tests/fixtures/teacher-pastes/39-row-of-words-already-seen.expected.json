@@ -1,0 +1,13 @@
+{
+  "why": "The second row is the first two words run together. A row whose words are all already in the list is a repeat, not a new giant word.",
+  "must": [
+    "苹果",
+    "香蕉"
+  ],
+  "mustNot": [
+    "苹果香蕉"
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}
+

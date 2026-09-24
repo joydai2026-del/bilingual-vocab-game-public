@@ -1,0 +1,9 @@
+{
+  "why": "the heading comes off, every grammar particle under it stays, and one space inside 第 1课 changes neither",
+  "note": "Two bugs meet on this line. The optional 的 in the same-line heading rule was allowed to float on whitespace, so it swallowed the standalone particle: `第1课 的 了 过` returned ['了','过'] while `第1课：的 了 过` returned all three, and whether a grammar lesson kept 的 came down to whether she typed the colon. 的 now has to be GLUED to the marker, which is the only form the rule's own examples use (第一课的生词). Separately, the lesson-ordinal guard demanded 第 immediately before the digits, so `第 1课：1月 2月 3月` returned ['第','课','月'] - the exact round-3 collapse, reopened by one space. One space is now allowed between 第 and the number, and no more. Fixture 41 is the same particles lesson with no heading over it.",
+  "must": ["的", "了", "过", "吗", "呢"],
+  "mustNot": ["第", "课", "第 1课", "1课"],
+  "mode": "free",
+  "maxItems": 5
+}
+

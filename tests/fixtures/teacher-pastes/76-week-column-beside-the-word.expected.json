@@ -1,0 +1,8 @@
+{
+  "why": "the Week column out of Excel: her three words are the cards, and the week numbers are the paperwork beside them",
+  "note": "Round 11b, from the round-10 panel's MF-1, and it is fixture 72 with a countable unit in the first column. 72 fixed the Lesson column; the rule it added tested only the document-structure units, so this paste still answered 第1周=apple, 第2周=banana, 第3周=teacher. That is the same failure 72 exists to prevent and the worse half of it: every word she typed is gone AND the game she plays has a confident wrong answer key, which she will not catch because she does not proofread forty rows. The tell that it was a bug rather than the standing decision is that the SPACE-separated twin of this exact paste already returned the three words, so one handout had two opposite answers depending on which key she pressed between the columns. THE TEST IS THE FIELD INDEX, NOT THE ROW: a countable marker only stops being a candidate term when the SAME column carries one on two or more rows, because that is what makes it a column rather than a word. One row of `第1周\\t苹果\\tapple` still keeps the marker (a single row cannot tell the two apart), and so does `第一次\\t头一回\\tthe first time`.",
+  "must": ["苹果", "香蕉", "老师"],
+  "mustNot": ["第1周", "第2周", "第3周", "第", "周"],
+  "maxItems": 3
+}
+

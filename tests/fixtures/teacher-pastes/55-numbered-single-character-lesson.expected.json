@@ -1,0 +1,9 @@
+{
+  "why": "a numbered list of single characters is a character lesson, not a calendar",
+  "note": "The round-2e calendar rule fired on any single-character run with digits glued to its front on a list, so 日 became \"the 1st\" and 月 became \"February\" while 水 火 木 stayed correct: half the game wrong, which reads as random rather than as one broken rule. 日月水火木 is the first set of characters a class learns and numbering it with no separator is how a teacher types one. The rule now reads the WHOLE PASTE: calendar cards only when every digit-fronted single-character run in it is a calendar unit, which keeps fixture 48 and kills this.",
+  "must": ["日", "月", "水", "火", "木"],
+  "mustNot": ["1日", "2月"],
+  "mode": "free",
+  "maxItems": 5
+}
+

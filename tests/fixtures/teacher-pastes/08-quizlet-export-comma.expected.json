@@ -1,0 +1,12 @@
+{
+  "why": "The same export with a comma, which is the other option in that dialog.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [],
+  "mode": "structured"
+}
+

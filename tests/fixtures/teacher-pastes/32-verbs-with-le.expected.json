@@ -1,0 +1,14 @@
+{
+  "why": "Verbs carrying the aspect marker, which is grammar and not part of the word.",
+  "must": [
+    "苹果",
+    "电视",
+    "香蕉",
+    "跑步"
+  ],
+  "mustNot": [
+    "了",
+    "吃了"
+  ]
+}
+

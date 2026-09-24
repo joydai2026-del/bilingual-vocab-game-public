@@ -1,0 +1,28 @@
+{
+  "why": "Round 3 review, must-fix 2: a heading dropped into the middle of a 51-word list. Only the longest run used to keep pair mode, so the 25 terms on the short side of the heading went back to the segmenter and came back as fragments. The heading comes out and both sides stay one list.",
+  "must": [
+    "科技创新",
+    "人工智能",
+    "语音识别",
+    "图像识别",
+    "数据分析",
+    "深度学习",
+    "解决问题",
+    "适应能力",
+    "模拟",
+    "程序",
+    "产品研发",
+    "研发"
+  ],
+  "mustNot": [
+    "科技",
+    "创新",
+    "电脑",
+    "东西",
+    "用新的科学和技术创造新的东西"
+  ],
+  "mode": "structured",
+  "minItems": 51,
+  "maxItems": 51
+}
+

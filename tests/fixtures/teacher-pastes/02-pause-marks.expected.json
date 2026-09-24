@@ -1,0 +1,13 @@
+{
+  "why": "The ideographic pause mark is what a teacher types for a list.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师"
+  ],
+  "mustNot": [
+    "苹果、香蕉、老师"
+  ],
+  "mode": "free"
+}
+

@@ -1,0 +1,9 @@
+{
+  "why": "on a bare list the study verbs are the lesson, not the sentence around it",
+  "note": "The stopword rule JJ set on 2026-09-08 is prose-only: on a bare list every dictionary word she separated is a card. PAPERWORK broke that promise for real vocabulary, because it was dropped in EVERY mode. A whole unit on school words came back with 考试 and 上课 only, and 学习 练习 复习 作业 were silently thrown away.",
+  "must": ["学习", "练习", "复习", "考试", "作业", "上课"],
+  "mustNot": [],
+  "mode": "free",
+  "maxItems": 6
+}
+

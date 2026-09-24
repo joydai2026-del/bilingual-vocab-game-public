@@ -1,0 +1,9 @@
+{
+  "why": "a months lesson written the way a Chinese teacher writes it must not come back empty",
+  "note": "The round-2 date rule read every `1月` as a date and deleted the whole paste: zero cards, which also sends the worker to the paid model rescue (RESCUE_BELOW_ITEMS). A date now needs two units in calendar order, so a single `1月` is left alone. Round 2e went further: on a list, `1月` through `12月` is now its own card, written the way she typed it, with pinyin and an English month name filled in on the server (monthOrDayCard in shared/extract.ts). The old answer, a single repeated `月` card, was honest but not what a months lesson teaches.",
+  "must": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+  "mustNot": ["月"],
+  "mode": "free",
+  "minItems": 12
+}
+

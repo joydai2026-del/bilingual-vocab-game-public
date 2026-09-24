@@ -1,0 +1,6 @@
+第1课	苹果	apple
+第2课	香蕉	banana
+第3课	老师	teacher
+第4课	学生	student
+第5课	你好	hello
+

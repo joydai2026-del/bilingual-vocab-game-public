@@ -1,0 +1,12 @@
+{
+  "why": "Semicolons, one line.",
+  "must": [
+    "苹果",
+    "香蕉",
+    "老师",
+    "学生"
+  ],
+  "mustNot": [],
+  "mode": "free"
+}
+

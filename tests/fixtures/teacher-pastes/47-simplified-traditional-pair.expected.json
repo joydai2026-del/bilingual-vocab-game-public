@@ -1,0 +1,9 @@
+{
+  "why": "one word written both ways is one card, keeping the form she wrote first",
+  "note": "Probed live 2026-09-08 against /api/extract: `苹果/蘋果 ... 老师/老師` made TWO cards per pair, which play as two questions with the same answer. Round 2d: 学习 is now a card as well. This paste is a bare list, and on a bare list an ordinary word like 学习 is vocabulary rather than paperwork (round 2 dropped it in every mode and silently lost her word). The collapse still keeps the form she wrote FIRST, so the traditional 學習 cannot slip a second card in behind it. A slash between two different words (fixture 21) is still a separator.",
+  "must": ["苹果", "学习", "老师"],
+  "mustNot": ["蘋果", "學習", "老師", "苹果/蘋果"],
+  "mode": "free",
+  "maxItems": 3
+}
+

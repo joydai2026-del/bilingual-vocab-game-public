@@ -1,0 +1,28 @@
+{
+  "name": "bilingual-vocab-game",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:dict": "node scripts/build-cedict.mjs",
+    "build": "node scripts/write-version.mjs && npm run build:dict && vite build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.worker.json",
+    "deploy": "npm run build && wrangler deploy",
+    "cf:dev": "npm run build && wrangler dev"
+  },
+  "dependencies": {
+    "pinyin-pro": "^3.29.3",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260907.1",
+    "@types/three": "0.185.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0",
+    "wrangler": "4.128.0"
+  }
+}
+
