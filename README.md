@@ -6,6 +6,8 @@ A bilingual (Chinese-English) vocabulary game generator: paste a word list, get 
 
 - **Bilingual Vocab Game (44s, voiceover + music)** - this repo: [docs/demo/bilingual-vocab-game-demo.mp4](docs/demo/bilingual-vocab-game-demo.mp4)
 
+https://github.com/user-attachments/assets/a9027275-81e8-43f0-bf1a-f4dcb9a73242
+
 More products by the same builder:
 
 - Caption Wars party game (44s): https://github.com/joydai2026-del/little-games/blob/main/caption-wars/docs/demo/caption-wars-demo.mp4
