@@ -78,7 +78,7 @@ const EXE = (() => {
 const BASE = process.env.BVG_BASE || 'http://localhost:8813';
 const SHOTS =
   process.env.BVG_SHOTS ||
-  '/private/tmp/claude-501/-Users-joyd-Bilingual-Vocab-Game-Generator/48bc5bd5-0a7b-495e-8cf2-1a7876341956/scratchpad/reveal';
+  path.join(require('os').tmpdir(), 'bvg-reveal-rush');
 
 const PASTE = '苹果 香蕉 葡萄 西瓜 草莓 橙子 桃子 梨';
 
